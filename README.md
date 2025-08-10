@@ -1,7 +1,7 @@
 # TFG_Resultados_y_Archivos
 Repositorio creado exclusivamente para recopilar y mostrar los archivos y resultados generados durante el desarrollo de mi TFG sobre SR. Debido a las limitaciones de tamaño de GitHub, solo se han subido los elementos estrictamente necesarios, incluyendo modelos, scripts y resultados seleccionados en formato comprimido (.zip).
 
-# 📂 Trabajo de Fin de Grado – Superresolución de Imágenes
+# 🖼️ Trabajo de Fin de Grado – Superresolución de Imágenes
 
 Este repositorio **no corresponde al repositorio original de trabajo**, por lo que las fechas de los commits **no coinciden** con las fechas reales de desarrollo.  
 Su único propósito es **presentar el código y los resultados generados** durante la elaboración del TFG, con el objetivo de documentar el proceso y las pruebas realizadas.
