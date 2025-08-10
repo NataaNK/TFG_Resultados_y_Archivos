@@ -3,8 +3,7 @@ Repositorio creado exclusivamente para recopilar y mostrar los archivos y result
 
 # 🖼️ Trabajo de Fin de Grado – Superresolución de Imágenes
 
-Este repositorio **no corresponde al repositorio original de trabajo**, por lo que las fechas de los commits **no coinciden** con las fechas reales de desarrollo.  
-Su único propósito es **presentar el código y los resultados generados** durante la elaboración del TFG, con el objetivo de documentar el proceso y las pruebas realizadas.
+Este repositorio **no corresponde al repositorio original de trabajo**, por lo que las fechas de los commits **no coinciden** con las fechas reales de desarrollo. Su único propósito es **presentar el código y los resultados generados** durante la elaboración del TFG, con el objetivo de documentar el proceso y las pruebas realizadas.
 
 > ⚠️ Debido a las limitaciones de espacio en GitHub, **no es posible incluir todos los modelos evaluados** (8 en total) ni sus pesos completos. Por este motivo, solo se han subido los elementos estrictamente necesarios y varios de ellos están comprimidos en `.zip`.
 
@@ -28,8 +27,7 @@ El contenido está organizado de la siguiente forma:
 
 ## ⚙️ Nota sobre la funcionalidad
 
-Este repositorio **no es funcional de forma independiente**.  
-Faltan partes esenciales del código y modelos completos debido a las limitaciones de almacenamiento, pero incluye suficiente información para **entender la estructura, el flujo de trabajo y las implementaciones utilizadas** para obtener los resultados presentados.
+Este repositorio **no es funcional de forma independiente**. Faltan partes esenciales del código y modelos completos debido a las limitaciones de almacenamiento, pero incluye suficiente información para **entender la estructura, el flujo de trabajo y las implementaciones utilizadas** para obtener los resultados presentados.
 
 ---
 
