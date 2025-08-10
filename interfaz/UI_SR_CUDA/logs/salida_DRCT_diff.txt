@@ -1,0 +1,144 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_Final150\Final150Resized
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #1): 718.95 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_Final150\Final150Blur
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #2): 711.67 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_Final150\Final150Noise
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #3): 696.34 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_Final150\Final150Compressed
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #4): 687.06 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Resized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #1): 785.08 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Resized
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Resized\10_BN.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Resized\10_BN.png, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resultados_subdataset\DR ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Blur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #2): 697.71 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Blur
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Blur\10_BN.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Blur\10_BN.png, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_f ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Noise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #3): 700.53 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Noise
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Noise\10_BN.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Noise\10_BN.png, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRT ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Compressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #4): 698.03 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_diff\Final150Compressed
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Compressed\10_BN.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Compressed\10_BN.png, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resultados_subd ...

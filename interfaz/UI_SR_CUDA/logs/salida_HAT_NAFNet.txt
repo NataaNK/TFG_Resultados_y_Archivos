@@ -1,0 +1,48 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_Final150\Final150Resized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #1): 178.35 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250220_120349
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_Final150\Final150Blur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #2): 178.19 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250220_120647
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_Final150\Final150Noise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #3): 179.28 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250220_120945
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_Final150\Final150Compressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #4): 177.60 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250220_121245
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...

@@ -1,0 +1,36 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\ConTexto100LR
+Directorio de salida  : H:\MasOrange\IMAGENES\AAOptimizacion\SalidasConTexto100\RealESRGANPlusx4_ConTexto100
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #1): 357.51 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_Color
+Testing 0 10_Sepia
+Testing 0 11_BN
+Testing 0 11_Color
+Testing 0 11_Sepia
+Testing 0 12_Color
+Testing 0 12_Sepia
+Testing 0 13_BN
+Testing 0 13_Color
+Testing 0 13_Sepia
+Testing 0 14_Color
+Testing 0 15_Color
+Testing 0 15_Sepia
+Testing 0 16_Color
+Testing 0 16_Sepia
+Testing 0 17_Color
+Testing 0 17_Sepia
+Testing 0 18_BN
+Testing 0 18_Color
+Testing 0 19_Color
+Testing 0 1_BN
+Testing 0 1_Color
+Testing 0 1_Sepia
+Testing 0 20_BN
+Testing 0 20_Color
+Testing 0 21_Color
+Testing 0 21_Sepia
+Testi ...

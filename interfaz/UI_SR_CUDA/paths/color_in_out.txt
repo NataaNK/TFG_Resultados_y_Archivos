@@ -1,0 +1,32 @@
+
+# 1. Lista de rutas de entrada (donde están las imágenes originales).
+INPUT_DIRS = [
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedCompression",
+]
+
+# 2. Lista de rutas de salida (donde quieres que se guarden las imágenes procesadas).
+OUTPUT_DIRS = [
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaCompressed"
+]

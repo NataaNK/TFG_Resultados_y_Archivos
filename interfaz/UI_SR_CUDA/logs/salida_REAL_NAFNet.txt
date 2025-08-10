@@ -1,0 +1,82 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_Final150\Final150Resized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #1): 581.07 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_BN_BN_NAFNet
+Testing 0 10_resized_Color_Color_NAFNet
+Testing 0 10_resized_Sepia_NAFNet
+Testing 0 11_resized_BN_BN_NAFNet
+Testing 0 11_resized_Color_Color_NAFNet
+Testing 0 11_resized_Sepia_NAFNet
+Testing 0 12_resized_BN_BN_NAFNet
+Testing 0 12_resized_Color_Color_NAFNet
+Testing 0 12_resized_Sepia_NAFNet
+Testing 0 13_resized_BN_BN_NAFNet
+Testing 0 13_resized_Color_Color_NAFNet
+Testing 0 13_resized_Sepia_NAFNet
+Testing 0 14_resized_BN_BN_NAFNet
+Testing 0 14_resized_Color_Color_N ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_Final150\Final150Blur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #2): 521.49 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur_BN_BN_NAFNet
+Testing 0 10_resized_blur_Color_Color_NAFNet
+Testing 0 10_resized_blur_Sepia_NAFNet
+Testing 0 11_resized_blur_BN_BN_NAFNet
+Testing 0 11_resized_blur_Color_Color_NAFNet
+Testing 0 11_resized_blur_Sepia_NAFNet
+Testing 0 12_resized_blur_BN_BN_NAFNet
+Testing 0 12_resized_blur_Color_Color_NAFNet
+Testing 0 12_resized_blur_Sepia_NAFNet
+Testing 0 13_resized_blur_BN_BN_NAFNet
+Testing 0 13_resized_blur_Color_Color_NAFNet
+Testing 0 13_resized_blur_Sepia_NAFNet
+Testing  ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_Final150\Final150Noise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #3): 520.08 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise_BN_BN_NAFNet
+Testing 0 10_resized_noise_Color_Color_NAFNet
+Testing 0 10_resized_noise_Sepia_NAFNet
+Testing 0 11_resized_noise_BN_BN_NAFNet
+Testing 0 11_resized_noise_Color_Color_NAFNet
+Testing 0 11_resized_noise_Sepia_NAFNet
+Testing 0 12_resized_noise_BN_BN_NAFNet
+Testing 0 12_resized_noise_Color_Color_NAFNet
+Testing 0 12_resized_noise_Sepia_NAFNet
+Testing 0 13_resized_noise_BN_BN_NAFNet
+Testing 0 13_resized_noise_Color_Color_NAFNet
+Testing 0 13_resized_noise_Sepia_NAF ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_Final150\Final150Compressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #4): 519.86 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed_BN_BN_NAFNet
+Testing 0 10_resized_compressed_Color_Color_NAFNet
+Testing 0 10_resized_compressed_Sepia_NAFNet
+Testing 0 11_resized_compressed_BN_BN_NAFNet
+Testing 0 11_resized_compressed_Color_Color_NAFNet
+Testing 0 11_resized_compressed_Sepia_NAFNet
+Testing 0 12_resized_compressed_BN_BN_NAFNet
+Testing 0 12_resized_compressed_Color_Color_NAFNet
+Testing 0 12_resized_compressed_Sepia_NAFNet
+Testing 0 13_resized_compressed_BN_BN_NAFNet
+Testing 0 13_resized_compressed_ ...

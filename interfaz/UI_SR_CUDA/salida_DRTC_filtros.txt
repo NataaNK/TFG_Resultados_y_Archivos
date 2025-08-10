@@ -1,0 +1,64 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Resized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #1): 726.01 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Resized
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Resized\10_BN.jpg
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Resized\10_BN.jpg, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Blur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #2): 708.97 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Blur
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Blur\10_BN.jpg
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Blur\10_BN.jpg, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resultad ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Noise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #3): 706.09 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Noise
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Noise\10_BN.jpg
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Noise\10_BN.jpg, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\troncho_portal\resul ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Compressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #4): 704.81 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_final150_filtros\Final150Compressed
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed\10_BN.jpg
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed\10_BN.jpg, shape: (238, 300, 3)
+Image saved successfully: H:\MasOrange\tronc ...

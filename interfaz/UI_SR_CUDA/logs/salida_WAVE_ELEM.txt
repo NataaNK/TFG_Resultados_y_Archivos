@@ -1,0 +1,180 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #1): 12.16 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #2): 12.54 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #3): 12.57 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #4): 12.42 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #5): 22.63 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #6): 22.26 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #7): 22.30 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #8): 22.78 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_DibujoCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #9): 11.22 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #10): 10.82 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #11): 10.87 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #12): 10.83 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_FondosCargadosCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #13): 13.38 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #14): 13.37 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #15): 13.28 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #16): 13.43 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_MinimalistaCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #17): 5.99 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #18): 5.92 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #19): 5.91 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #20): 5.89 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_RetratoCompressed ...

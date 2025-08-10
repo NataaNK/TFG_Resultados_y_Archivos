@@ -1,0 +1,124 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_final150_real\Final150Resized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #1): 524.57 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_BN_out
+Testing 0 10_Color_out
+Testing 0 10_Sepia_out
+Testing 0 11_BN_out
+Testing 0 11_Color_out
+Testing 0 11_Sepia_out
+Testing 0 12_BN_out
+Testing 0 12_Color_out
+Testing 0 12_Sepia_out
+Testing 0 13_BN_out
+Testing 0 13_Color_out
+Testing 0 13_Sepia_out
+Testing 0 14_BN_out
+Testing 0 14_Color_out
+Testing 0 14_Sepia_out
+Testing 0 15_BN_out
+Testing 0 15_Color_out
+Testing 0 15_Sepia_out
+Testing 0 16_BN_out
+Testing 0 16_Color_out
+Testing 0 16_Sepia_out
+Testing 0 17_BN_out
+Testing 0 17_Color ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_final150_real\Final150Blur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #2): 522.93 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_BN_out
+Testing 0 10_Color_out
+Testing 0 10_Sepia_out
+Testing 0 11_BN_out
+Testing 0 11_Color_out
+Testing 0 11_Sepia_out
+Testing 0 12_BN_out
+Testing 0 12_Color_out
+Testing 0 12_Sepia_out
+Testing 0 13_BN_out
+Testing 0 13_Color_out
+Testing 0 13_Sepia_out
+Testing 0 14_BN_out
+Testing 0 14_Color_out
+Testing 0 14_Sepia_out
+Testing 0 15_BN_out
+Testing 0 15_Color_out
+Testing 0 15_Sepia_out
+Testing 0 16_BN_out
+Testing 0 16_Color_out
+Testing 0 16_Sepia_out
+Testing 0 17_BN_out
+Testing 0 17_Color ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_final150_real\Final150Noise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #3): 524.26 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_BN_out
+Testing 0 10_Color_out
+Testing 0 10_Sepia_out
+Testing 0 11_BN_out
+Testing 0 11_Color_out
+Testing 0 11_Sepia_out
+Testing 0 12_BN_out
+Testing 0 12_Color_out
+Testing 0 12_Sepia_out
+Testing 0 13_BN_out
+Testing 0 13_Color_out
+Testing 0 13_Sepia_out
+Testing 0 14_BN_out
+Testing 0 14_Color_out
+Testing 0 14_Sepia_out
+Testing 0 15_BN_out
+Testing 0 15_Color_out
+Testing 0 15_Sepia_out
+Testing 0 16_BN_out
+Testing 0 16_Color_out
+Testing 0 16_Sepia_out
+Testing 0 17_BN_out
+Testing 0 17_Color ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\RealESRGAN_final150_real\Final150Compressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #4): 523.13 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_BN_out
+Testing 0 10_Color_out
+Testing 0 10_Sepia_out
+Testing 0 11_BN_out
+Testing 0 11_Color_out
+Testing 0 11_Sepia_out
+Testing 0 12_BN_out
+Testing 0 12_Color_out
+Testing 0 12_Sepia_out
+Testing 0 13_BN_out
+Testing 0 13_Color_out
+Testing 0 13_Sepia_out
+Testing 0 14_BN_out
+Testing 0 14_Color_out
+Testing 0 14_Sepia_out
+Testing 0 15_BN_out
+Testing 0 15_Color_out
+Testing 0 15_Sepia_out
+Testing 0 16_BN_out
+Testing 0 16_Color_out
+Testing 0 16_Sepia_out
+Testing 0 17_BN_out
+Testing 0 17_Color ...

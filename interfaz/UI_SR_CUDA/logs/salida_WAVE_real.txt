@@ -1,0 +1,36 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Resized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #1): 61.17 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Resized ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Blur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #2): 19.71 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Blur ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Noise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #3): 18.95 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Noise ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN_restoration\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Compressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #4): 19.08 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\WaveMix_final150_real\Final150Compressed ...

@@ -1,0 +1,52 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_final150_filtros\Final150Resized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #1): 228.18 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250304_003757
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Resized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_final150_filtros\Final150Blur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #2): 179.43 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250304_004107
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Blur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_final150_filtros\Final150Noise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #3): 179.80 segundos.
+
+
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250304_004407
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Noise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\HAT_final150_filtros\Final150Compressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #4): 179.48 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250304_004707
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+

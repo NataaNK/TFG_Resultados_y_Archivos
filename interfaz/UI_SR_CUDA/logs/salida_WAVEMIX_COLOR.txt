@@ -1,0 +1,108 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #1): 8.07 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #2): 7.89 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #3): 7.91 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\BlancoNegro\BlancoNegroOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #4): 8.05 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_BlancoNegroCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #5): 7.79 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #6): 7.50 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #7): 7.39 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Color\ColorOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #8): 7.43 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_ColorCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #9): 8.34 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #10): 8.28 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #11): 8.32 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\COLOR\Sepia\SepiaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #12): 8.33 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\COLOR\WaveMix_SepiaCompressed ...

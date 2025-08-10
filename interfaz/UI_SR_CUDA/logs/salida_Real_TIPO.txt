@@ -1,0 +1,1008 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #1:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #2:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #3:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #4:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #5:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #6:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #7:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #8:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #9:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #10:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #11:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #12:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #13:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #14:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #15:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #16:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #17:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #18:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #19:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #20:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #21:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #22:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #23:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #24:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifResized
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #25:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifBlur
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #26:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifNoise
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #27:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifCompressed
+Usando modelo         : RealESRGAN
+Ocurrió un error en el lote #28:
+Modelo RealESRGAN no encontrado en el diccionario MODELOS.
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #1): 98.72 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #2): 86.48 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #3): 86.12 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_CartoonCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #4): 86.11 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #5): 88.23 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #6): 87.48 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #7): 87.51 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_FuturistasCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #8): 87.53 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #9): 86.04 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #10): 85.58 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #11): 85.81 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_ManuscritasCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #12): 85.69 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #13): 86.13 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #14): 87.61 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #15): 86.69 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_MaquinaEscribirCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #16): 86.55 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #17): 85.41 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #18): 85.39 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #19): 86.80 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_PsicodelicasCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #20): 85.57 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #21): 86.88 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #22): 82.66 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 4_resized_blur
+Testing 0  ...
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #23): 83.14 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resized_noise
+Testing 0 4_resiz ...
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SansSerifGruesasCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #24): 82.96 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_compressed
+Testing 0 25_resized_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifResized
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #25): 86.25 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized
+Testing 0 11_resized
+Testing 0 12_resized
+Testing 0 13_resized
+Testing 0 14_resized
+Testing 0 15_resized
+Testing 0 16_resized
+Testing 0 17_resized
+Testing 0 18_resized
+Testing 0 19_resized
+Testing 0 1_resized
+Testing 0 20_resized
+Testing 0 21_resized
+Testing 0 22_resized
+Testing 0 23_resized
+Testing 0 24_resized
+Testing 0 25_resized
+Testing 0 2_resized
+Testing 0 3_resized
+Testing 0 4_resized
+Testing 0 5_resized
+Testing 0 6_resized
+Testing 0 7_resized
+Testing 0 8_resized
+Test ...
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifBlur
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #26): 86.03 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_blur
+Testing 0 11_resized_blur
+Testing 0 12_resized_blur
+Testing 0 13_resized_blur
+Testing 0 14_resized_blur
+Testing 0 15_resized_blur
+Testing 0 16_resized_blur
+Testing 0 17_resized_blur
+Testing 0 18_resized_blur
+Testing 0 19_resized_blur
+Testing 0 1_resized_blur
+Testing 0 20_resized_blur
+Testing 0 21_resized_blur
+Testing 0 22_resized_blur
+Testing 0 23_resized_blur
+Testing 0 24_resized_blur
+Testing 0 25_resized_blur
+Testing 0 2_resized_blur
+Testing 0 3_resized_blur
+Testing 0 ...
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifNoise
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #27): 86.13 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_noise
+Testing 0 11_resized_noise
+Testing 0 12_resized_noise
+Testing 0 13_resized_noise
+Testing 0 14_resized_noise
+Testing 0 15_resized_noise
+Testing 0 16_resized_noise
+Testing 0 17_resized_noise
+Testing 0 18_resized_noise
+Testing 0 19_resized_noise
+Testing 0 1_resized_noise
+Testing 0 20_resized_noise
+Testing 0 21_resized_noise
+Testing 0 22_resized_noise
+Testing 0 23_resized_noise
+Testing 0 24_resized_noise
+Testing 0 25_resized_noise
+Testing 0 2_resized_noise
+Testing 0 3_resi ...
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\RealESRGAN\TIPOGRAFIA\RealESRGAN_SerifCompressed
+Usando modelo         : REAL-ESRGAN
+Tiempo de ejecución (lote #28): 86.13 segundos.
+Salida estándar del proceso (resumen):
+Testing 0 10_resized_compressed
+Testing 0 11_resized_compressed
+Testing 0 12_resized_compressed
+Testing 0 13_resized_compressed
+Testing 0 14_resized_compressed
+Testing 0 15_resized_compressed
+Testing 0 16_resized_compressed
+Testing 0 17_resized_compressed
+Testing 0 18_resized_compressed
+Testing 0 19_resized_compressed
+Testing 0 1_resized_compressed
+Testing 0 20_resized_compressed
+Testing 0 21_resized_compressed
+Testing 0 22_resized_compressed
+Testing 0 23_resized_compressed
+Testing 0 24_resized_ ...

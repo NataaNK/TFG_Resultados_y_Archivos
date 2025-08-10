@@ -1,0 +1,482 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #1:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #2:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #3:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #4:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #5:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #6:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #7:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #8:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #9:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #10:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #11:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #12:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #13:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #14:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #15:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #16:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #17:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #18:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #19:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #20:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #21:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #22:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #23:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #24:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifResized
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #25:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifBlur
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #26:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifNoise
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #27:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifCompressed
+Usando modelo         : WAVE-MIX
+Ocurrió un error en el lote #28:
+No se encontró el ejecutable de Python: H:/MasOrange/CUDA/WAVE-MIX/venv/Scripts/python.exe
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #1): 5.29 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #2): 5.15 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #3): 5.16 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #4): 5.15 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_CartoonCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #5): 20.03 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #6): 19.32 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #7): 19.41 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #8): 19.61 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_FuturistasCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #9): 5.74 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #10): 5.06 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #11): 5.10 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #12): 5.06 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_ManuscritasCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #13): 5.52 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #14): 5.36 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #15): 5.36 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #16): 5.35 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_MaquinaEscribirCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #17): 4.52 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #18): 5.64 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #19): 4.28 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #20): 4.33 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_PsicodelicasCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #21): 5.51 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #22): 4.98 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #23): 5.05 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #24): 5.06 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SansSerifGruesasCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifResized
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #25): 4.92 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifResized ...
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifBlur
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #26): 4.75 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifBlur ...
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifNoise
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #27): 4.76 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifNoise ...
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifCompressed
+Usando modelo         : WAVE-MIX
+Tiempo de ejecución (lote #28): 4.76 segundos.
+Salida estándar del proceso (resumen):
+¡Proceso finalizado! Las imágenes SR x4 se han guardado en: H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\TIPOGRAFIA\WaveMix_SerifCompressed ...
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\WaveMix\ELEMENTOS\WaveMix_ElemCartoonResized
+Usando modelo         : WAVE-MIX

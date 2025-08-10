@@ -1,0 +1,64 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Resized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #1): 778.48 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Resized
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized\10_resized_BN_BN_NAFNet.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized\10_resized_BN_BN_NAFNet.png, shape: (238, 300, 3)
+Image saved successfully: H:\Ma ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Blur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #2): 707.89 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Blur
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur\10_resized_blur_BN_BN_NAFNet.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur\10_resized_blur_BN_BN_NAFNet.png, shape: (238, 300, 3)
+Image saved successfully: H:\M ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Noise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #3): 708.18 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Noise
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise\10_resized_noise_BN_BN_NAFNet.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise\10_resized_noise_BN_BN_NAFNet.png, shape: (238, 300, 3)
+Image saved successfully: ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Compressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #4): 708.01 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\DRTC_Final150\Final150Compressed
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed\10_resized_compressed_BN_BN_NAFNet.png
+Image loaded: H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed\10_resized_compressed_BN_BN_NAFNet.png, shape: (238, 300, 3)
+ ...

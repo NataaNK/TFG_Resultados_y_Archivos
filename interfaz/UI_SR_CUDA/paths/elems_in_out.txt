@@ -1,0 +1,47 @@
+# 1. Lista de rutas de entrada (donde están las imágenes originales).
+INPUT_DIRS = [
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Cartoon\CartoonOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Dibujo\DibujoOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\FondosCargados\FondosCargadosOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Minimalista\MinimalistaOriginalResizedCompression",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResized",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedBlur",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedNoise",
+    r"H:\MasOrange\IMAGENES\Sub-datasets\ELEMENTOS\Retrato\RetratoOriginalResizedCompression"
+]
+
+# 2. Lista de rutas de salida (donde quieres que se guarden las imágenes procesadas).
+OUTPUT_DIRS = [
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_ElemCartoonResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_ElemCartoonBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_ElemCartoonNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_ElemCartoonCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_DibujoResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_DibujoBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_DibujoNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_DibujoCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_FondosCargadosResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_FondosCargadosBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_FondosCargadosNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_FondosCargadosCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_MinimalistaResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_MinimalistaBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_MinimalistaNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_MinimalistaCompressed",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_RetratoResized",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_RetratoBlur",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_RetratoNoise",
+    r"H:\MasOrange\troncho_portal\resultados_subdataset\HMA\ELEMENTOS\HMA_RetratoCompressed"
+]

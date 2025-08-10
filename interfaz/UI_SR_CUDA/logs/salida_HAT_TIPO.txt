@@ -1,0 +1,336 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_CartoonResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #1): 49.33 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180016
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_CartoonBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #2): 36.46 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180053
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_CartoonNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #3): 36.77 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180129
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_CartoonCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #4): 36.67 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180206
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_FuturistasResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #5): 47.95 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180243
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_FuturistasBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #6): 48.78 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180330
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_FuturistasNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #7): 49.44 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180419
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_FuturistasCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #8): 48.06 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180509
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_ManuscritasResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #9): 33.14 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180557
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_ManuscritasBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #10): 32.80 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180630
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_ManuscritasNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #11): 33.20 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180703
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_ManuscritasCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #12): 33.91 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180736
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_MaquinaEscribirResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #13): 39.50 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180810
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_MaquinaEscribirBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #14): 39.31 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180850
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_MaquinaEscribirNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #15): 39.65 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_180929
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_MaquinaEscribirCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #16): 39.26 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181009
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_PsicodelicasResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #17): 29.92 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181048
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_PsicodelicasBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #18): 29.44 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181118
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_PsicodelicasNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #19): 29.54 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181147
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_PsicodelicasCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #20): 30.04 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181217
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SansSerifGruesasResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #21): 35.41 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181247
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SansSerifGruesasBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #22): 35.99 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181323
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SansSerifGruesasNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #23): 34.89 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181359
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SansSerifGruesasCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #24): 34.61 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181434
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SerifResized
+Usando modelo         : HAT
+Tiempo de ejecución (lote #25): 33.77 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181508
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SerifBlur
+Usando modelo         : HAT
+Tiempo de ejecución (lote #26): 33.75 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181542
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SerifNoise
+Usando modelo         : HAT
+Tiempo de ejecución (lote #27): 34.03 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181616
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HAT\TIPOGRAFIA\HAT_SerifCompressed
+Usando modelo         : HAT
+Tiempo de ejecución (lote #28): 33.74 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HAT-CUDA\results\HAT_L_SRx4_Test_archived_20250209_181650
+Actualizando options/test/NATALIA_x4.yml con dataroot_lq: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Ejecutando comando: H:\MasOrange\CUDA\HAT-CUDA\venv\Scripts\python.exe hat/test.py -opt options/test/NATALIA_x4.yml ...

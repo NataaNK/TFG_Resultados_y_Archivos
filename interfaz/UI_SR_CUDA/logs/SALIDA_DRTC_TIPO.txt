@@ -1,0 +1,461 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_CartoonResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #1): 135.33 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized\11_resized.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized\11_resized.jpg, shape: (59, 90, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\11_resized_DRCT-L_X4.png
+Using device: cuda
+Loading model. ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_CartoonBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #2): 134.59 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur\10_resized_blur.jpg, shape: (45, 68, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_blur_DRCT-L_X4.png
+Using devi ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_CartoonNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #3): 129.23 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise\10_resized_noise.jpg, shape: (45, 68, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_noise_DRCT-L_X4.png
+Using ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_CartoonCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #4): 124.71 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression\10_resized_compressed.jpg, shape: (45, 68, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_com ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_FuturistasResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #5): 118.64 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized\10_resized.png
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized\10_resized.png, shape: (270, 405, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_DRCT-L_X4.png
+Using device: cuda
+Lo ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_FuturistasBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #6): 136.61 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur\10_resized_blur.jpg, shape: (270, 405, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_blur_DRCT-L_X4.pn ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_FuturistasNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #7): 136.27 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise\10_resized_noise.jpg, shape: (270, 405, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_noise_DRCT-L_ ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_FuturistasCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #8): 133.90 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression\10_resized_compressed.jpg, shape: (270, 405, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10 ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_ManuscritasResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #9): 103.75 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized\10_resized.png
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized\10_resized.png, shape: (100, 150, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_DRCT-L_X4.png
+Using device: c ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_ManuscritasBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #10): 114.60 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur\10_resized_blur.jpg, shape: (100, 150, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_blur_DRCT-L ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_ManuscritasNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #11): 114.69 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise\10_resized_noise.jpg, shape: (100, 150, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_noise_D ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_ManuscritasCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #12): 114.04 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression\10_resized_compressed.jpg, shape: (100, 150, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/sca ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_MaquinaEscribirResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #13): 113.56 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized\10_resized.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized\10_resized.jpg, shape: (152, 101, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_DRCT-L_X4.png ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_MaquinaEscribirBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #14): 120.09 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur\10_resized_blur.jpg, shape: (152, 101, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_res ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_MaquinaEscribirNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #15): 120.88 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise\10_resized_noise.jpg, shape: (152, 101, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10 ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_MaquinaEscribirCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #16): 120.41 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression\10_resized_compressed.jpg, shape: (152, 101, 3)
+Image saved successfully: H:/MasOrange/CU ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_PsicodelicasResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #17): 76.37 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized\10_resized.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized\10_resized.jpg, shape: (125, 187, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_DRCT-L_X4.png
+Using device: ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_PsicodelicasBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #18): 104.47 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur\10_resized_blur.jpg, shape: (125, 187, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_blur_DRCT ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_PsicodelicasNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #19): 104.44 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise\10_resized_noise.jpg, shape: (125, 187, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_noise ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_PsicodelicasCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #20): 104.34 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression\10_resized_compressed.jpg, shape: (125, 187, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/s ...
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SansSerifGruesasResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #21): 114.39 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized\10_resized.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized\10_resized.jpg, shape: (250, 250, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_DRCT-L_X4 ...
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SansSerifGruesasBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #22): 110.41 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur\10_resized_blur.jpg, shape: (250, 250, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10 ...
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SansSerifGruesasNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #23): 110.56 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise\10_resized_noise.jpg, shape: (250, 250, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scale ...
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SansSerifGruesasCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #24): 110.21 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression\10_resized_compressed.jpg, shape: (250, 250, 3)
+Image saved successfully: H:/MasOrang ...
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SerifResized
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #25): 106.99 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized\11_resized.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized\11_resized.jpg, shape: (125, 187, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\11_resized_DRCT-L_X4.png
+Using device: cuda
+Loading model...
+Mod ...
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SerifBlur
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #26): 111.47 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur\10_resized_blur.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur\10_resized_blur.jpg, shape: (68, 46, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_blur_DRCT-L_X4.png
+Using device: cuda ...
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SerifNoise
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #27): 110.91 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise\10_resized_noise.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise\10_resized_noise.jpg, shape: (68, 46, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_noise_DRCT-L_X4.png
+Using device: ...
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\DRTC\TIPOGRAFIA\DRTC_SerifCompressed
+Usando modelo         : DRTC
+Tiempo de ejecución (lote #28): 110.61 segundos.
+Salida estándar del proceso (resumen):
+Using device: cuda
+Loading model...
+Model loaded successfully!
+Output directory: H:/MasOrange/CUDA/DRCT-CUDA/scaled
+Processing 1 input(s)...
+Processing image 1/1: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression\10_resized_compressed.jpg
+Image loaded: H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression\10_resized_compressed.jpg, shape: (68, 46, 3)
+Image saved successfully: H:/MasOrange/CUDA/DRCT-CUDA/scaled\10_resized_compressed_ ...

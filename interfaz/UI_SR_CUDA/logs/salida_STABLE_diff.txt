@@ -1,0 +1,80 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_final150_diff\Final150Resized
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #1): 772.89 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_final150_diff\Final150Blur
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #2): 686.03 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_final150_diff\Final150Noise
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #3): 683.42 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\DiffBIR\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\StableSR\StableSR_final150_diff\Final150Compressed
+Usando modelo         : STABLE-SR
+Tiempo de ejecución (lote #4): 681.35 segundos.
+Salida estándar del proceso (resumen):
+>>>>>>>>>>color correction>>>>>>>>>>>
+Use wavelet color correction
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Loading model from ./stablesr_turbo.ckpt
+Global Step: 16500
+LatentDiffusionSRTextWT: Running in eps-prediction mode
+DiffusionWrapper has 918.93 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 64, 64) = 16384 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>
+['diffusion_model.input_bloc ...

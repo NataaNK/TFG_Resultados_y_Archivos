@@ -1,0 +1,192 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Resized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\HMA_Final150\Final150Resized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #1): 285.08 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250220_125229
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Blur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\HMA_Final150\Final150Blur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #2): 225.54 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250220_125624
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Noise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\HMA_Final150\Final150Noise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #3): 227.91 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250220_130010
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\troncho_portal\resultados_subdataset\NAFNet\Final150\Final150Compressed
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\HMA_Final150\Final150Compressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #4): 226.99 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250220_130358
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile  ...

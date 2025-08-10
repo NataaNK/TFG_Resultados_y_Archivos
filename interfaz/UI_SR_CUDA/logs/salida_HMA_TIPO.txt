@@ -1,0 +1,1308 @@
+
+---------------------------------------------
+PROCESANDO LOTE #1
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_CartoonResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #1): 60.61 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183021
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #2
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_CartoonBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #2): 47.51 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183108
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #3
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_CartoonNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #3): 47.25 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183156
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #4
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Cartoon\CartoonOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_CartoonCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #4): 46.95 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183243
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #5
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_FuturistasResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #5): 62.70 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183330
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/12
+	Tile 2/12
+	Tile 3/12
+	Tile 4/12
+	Tile 5/12
+	Tile 6/12
+	Tile 7/12
+	Tile 8/12
+	Tile 9/12
+	Tile 10/12
+	Tile 11/12
+	Tile 12/12
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	 ...
+
+---------------------------------------------
+PROCESANDO LOTE #6
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_FuturistasBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #6): 62.61 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183432
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/12
+	Tile 2/12
+	Tile 3/12
+	Tile 4/12
+	Tile 5/12
+	Tile 6/12
+	Tile 7/12
+	Tile 8/12
+	Tile 9/12
+	Tile 10/12
+	Tile 11/12
+	Tile 12/12
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	 ...
+
+---------------------------------------------
+PROCESANDO LOTE #7
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_FuturistasNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #7): 63.28 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183535
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/12
+	Tile 2/12
+	Tile 3/12
+	Tile 4/12
+	Tile 5/12
+	Tile 6/12
+	Tile 7/12
+	Tile 8/12
+	Tile 9/12
+	Tile 10/12
+	Tile 11/12
+	Tile 12/12
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	 ...
+
+---------------------------------------------
+PROCESANDO LOTE #8
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Futuristas\FuturistaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_FuturistasCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #8): 62.77 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183638
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/12
+	Tile 2/12
+	Tile 3/12
+	Tile 4/12
+	Tile 5/12
+	Tile 6/12
+	Tile 7/12
+	Tile 8/12
+	Tile 9/12
+	Tile 10/12
+	Tile 11/12
+	Tile 12/12
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	 ...
+
+---------------------------------------------
+PROCESANDO LOTE #9
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_ManuscritasResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #9): 44.33 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183741
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #10
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_ManuscritasBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #10): 44.30 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183826
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #11
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_ManuscritasNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #11): 44.47 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183910
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #12
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Manuscritas\ManuscritasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_ManuscritasCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #12): 44.25 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_183954
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #13
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_MaquinaEscribirResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #13): 52.72 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184039
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #14
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_MaquinaEscribirBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #14): 52.56 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184131
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #15
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_MaquinaEscribirNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #15): 52.88 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184224
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #16
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\MaquinaEscribir\MaquinaEscribirOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_MaquinaEscribirCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #16): 52.66 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184317
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/6
+	Tile 2/6
+	Tile 3/6
+	Tile 4/6
+	Tile 5/6
+	Tile 6/6
+	Tile 1/2
+	Tile 2/2
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #17
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_PsicodelicasResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #17): 33.42 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184410
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroot_lq' to 'H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psic ...
+
+---------------------------------------------
+PROCESANDO LOTE #18
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_PsicodelicasBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #18): 33.51 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184443
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroot_lq' to 'H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psic ...
+
+---------------------------------------------
+PROCESANDO LOTE #19
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_PsicodelicasNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #19): 33.99 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184517
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroot_lq' to 'H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psic ...
+
+---------------------------------------------
+PROCESANDO LOTE #20
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psicodelicas\PsicodelicaOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_PsicodelicasCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #20): 36.66 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184553
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroot_lq' to 'H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Psic ...
+
+---------------------------------------------
+PROCESANDO LOTE #21
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SansSerifGruesasResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #21): 42.83 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184627
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile  ...
+
+---------------------------------------------
+PROCESANDO LOTE #22
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SansSerifGruesasBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #22): 40.78 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184710
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+Update ...
+
+---------------------------------------------
+PROCESANDO LOTE #23
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SansSerifGruesasNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #23): 41.03 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184751
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+Update ...
+
+---------------------------------------------
+PROCESANDO LOTE #24
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\SansSerifGruesas\SansSerifGruesasOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SansSerifGruesasCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #24): 40.73 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184832
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+Update ...
+
+---------------------------------------------
+PROCESANDO LOTE #25
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResized
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SerifResized
+Usando modelo         : HMA
+Tiempo de ejecución (lote #25): 39.67 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184913
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroo ...
+
+---------------------------------------------
+PROCESANDO LOTE #26
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedBlur
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SerifBlur
+Usando modelo         : HMA
+Tiempo de ejecución (lote #26): 39.61 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_184952
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroo ...
+
+---------------------------------------------
+PROCESANDO LOTE #27
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedNoise
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SerifNoise
+Usando modelo         : HMA
+Tiempo de ejecución (lote #27): 39.92 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_185032
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroo ...
+
+---------------------------------------------
+PROCESANDO LOTE #28
+Directorio de entrada : H:\MasOrange\IMAGENES\Sub-datasets\TIPOGRAFIA\Serif\SerifOriginalResizedCompression
+Directorio de salida  : H:\MasOrange\troncho_portal\resultados_subdataset\HMA\TIPOGRAFIA\HMA_SerifCompressed
+Usando modelo         : HMA
+Tiempo de ejecución (lote #28): 39.59 segundos.
+Salida estándar del proceso (resumen):
+Disable distributed.
+Path already exists. Rename it to H:\MasOrange\CUDA\HMA-CUDA\results\HMA_test_archived_20250209_185112
+	Tile 1/1
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/1
+	Tile 1/4
+	Tile 2/4
+	Tile 3/4
+	Tile 4/4
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/1
+	Tile 1/2
+	Tile 2/2
+	Tile 1/2
+	Tile 2/2
+	Tile 1/1
+Updated 'dataroo ...
