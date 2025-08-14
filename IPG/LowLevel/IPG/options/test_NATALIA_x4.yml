@@ -1,0 +1,58 @@
+# General settings
+name: test_NATALIA_x4
+model_type: IPGModel
+scale: 4
+num_gpu: 1
+manual_seed: 10
+
+# Dataset settings
+datasets:
+  test:
+    name: CustomTestSet
+    type: SingleImageDataset  # Cambiado para solo imágenes LQ
+    dataroot_lq: E:\MasOrange\caratulas24\caratulas24_lr_t # Input images for processing
+    io_backend:
+      type: disk
+    phase: test
+    scale: 4
+
+# Network structures
+network_g:
+  type: IPG
+  upscale: 4
+  in_chans: 3
+  img_size: 64
+  window_size: 16
+  img_range: 1.
+  depths: [6, 6, 6, 6, 6, 6]
+  embed_dim: 180
+  num_heads: [6, 6, 6, 6, 6, 6]
+  mlp_ratio: 4
+  upsampler: pixelshuffle
+  resi_connection: 1conv
+  graph_flags: [1, 1, 1, 1, 1, 1]
+  stage_spec: [['GN', 'GS', 'GN', 'GS', 'GN', 'GS'], ['GN', 'GS', 'GN', 'GS', 'GN', 'GS'], ['GN', 'GS', 'GN', 'GS', 'GN', 'GS'], ['GN', 'GS', 'GN', 'GS', 'GN', 'GS'], ['GN', 'GS', 'GN', 'GS', 'GN', 'GS'], ['GN', 'GS', 'GN', 'GS', 'GN', 'GS']]
+  dist_type: cossim
+  top_k: 256
+  head_wise: 0
+  sample_size: 32
+  graph_switch: 1
+  flex_type: interdiff_plain
+  FFNtype: basic-dwconv3
+  conv_scale: 0
+  conv_type: dwconv3-gelu-conv1-ca
+  diff_scales: [10,1.5,1.5,1.5,1.5,1.5]
+  fast_graph: 1
+
+# Path settings
+path:
+  pretrain_network_g: E:/MasOrange/Efficient-Computing/NATALIA/pths/IPG_SRx4.pth  # Pretrained model path
+  strict_load_g: true
+  results_root: E:/MasOrange/Efficient-Computing/scaled_caratulas_x4  # Where to save results
+  log: E:/MasOrange/Efficient-Computing/LowLevel/IPG/results/test_NATALIA_x4/logs  # Log files
+  visualization: E:/MasOrange/Efficient-Computing/scaled_caratulas_x4  # Visualization outputs
+
+# Validation settings
+val:
+  save_img: true  # Save output images
+  suffix: _x4  # Add suffix to saved images
