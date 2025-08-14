@@ -1,0 +1,49 @@
+datasets:
+  test_1:
+    dataroot_lq: H:\MasOrange\troncho_portal\resultados_subdataset\DeformationFilters\Final150Compressed
+    io_backend:
+      type: disk
+    name: Custom
+    type: SingleImageDataset
+manual_seed: 1234
+model_type: HMAModel
+name: HMA_test
+network_g:
+  depths:
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  embed_dim: 180
+  img_range: 1.0
+  img_size: 64
+  in_chans: 3
+  interval_size: 4
+  mlp_ratio: 2
+  num_heads:
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  resi_connection: 1conv
+  type: HMANet
+  upsampler: pixelshuffle
+  upscale: 4
+  window_size: 16
+num_gpu: 1
+path:
+  param_key_g: params_ema
+  pretrain_network_g: ./experiments/HMA_SRx4_pretrain.pth
+  save_result: H:/MasOrange/CUDA/HMA-CUDA/scaled
+  strict_load_g: true
+scale: 4
+tile:
+  tile_pad: 32
+  tile_size: 256
+val:
+  save_img: true
+  suffix: null
