@@ -5,7 +5,7 @@ Repositorio creado exclusivamente para recopilar y mostrar los archivos y result
 
 Este repositorio **no corresponde al repositorio original de trabajo**, por lo que las fechas de los commits **no coinciden** con las fechas reales de desarrollo. Su único propósito es **presentar el código y los resultados generados** durante la elaboración del TFG, con el objetivo de documentar el proceso y las pruebas realizadas.
 
-> ⚠️ Debido a las limitaciones de espacio en GitHub, **no es posible incluir todos los modelos evaluados** (8 en total) ni sus pesos completos. Por este motivo, solo se han subido los elementos estrictamente necesarios y varios de ellos están comprimidos en `.zip`.
+> ⚠️ Debido a las limitaciones de espacio en GitHub, **no es posible incluir todos los modelos evaluados** (8 en total) ni sus pesos completos (LOS PESOS DE LOS MODELOS PESAN MÁS DE LO PERMITIDO POR GITHUB PARA PODER "PUSHEARLOS"). Por este motivo, solo se han subido los elementos estrictamente necesarios y varios de ellos están comprimidos en `.zip`.
 
 ---
 
