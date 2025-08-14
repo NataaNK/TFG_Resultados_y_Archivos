@@ -1,0 +1,40 @@
+name: SwinFIR_SRx4_Test
+model_type: SwinFIRModel
+scale: 4
+num_gpu: 1  # GPU mode
+manual_seed: 0
+
+datasets:
+  test:
+    name: SingleImageTest
+    type: SingleImageDataset
+    dataroot_lq: E:\MasOrange\caratulas24\caratulas24_lr
+    io_backend:
+      type: disk
+
+# network structures
+network_g:
+  type: SwinFIR
+  upscale: 4
+  in_chans: 3
+  img_size: 60
+  window_size: 12
+  img_range: 1.
+  depths: [6, 6, 6, 6, 6, 6]
+  embed_dim: 180
+  num_heads: [6, 6, 6, 6, 6, 6]
+  mlp_ratio: 2
+  upsampler: 'pixelshuffle'
+  resi_connection: 'SFB'
+
+# path
+path:
+  pretrain_network_g: ./experiments/pretrained_models/SwinFIR_SRx4.pth
+  strict_load_g: true
+  param_key_g: 'params_ema'
+
+# validation settings
+val:
+  save_img: true
+  suffix: scaled_x4  # Añade el sufijo 'scaled_x4' a las imágenes guardadas
+  save_folder: E:\MasOrange\SwinFIR\scaled
