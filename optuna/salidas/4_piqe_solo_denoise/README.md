@@ -6,6 +6,6 @@ Las salidas de cada *trial* por imagen, junto con sus gráficas (de todas formas
 
 **Contenido del `.zip`:**
 - Salida de cada *trial*
-- Gráficas por cada imagen: historial de optimización, importancia de parámetros, gráfica de coordenadas paralelas y *slice plots* de dn_s
+- Gráficas por cada imagen: historial de optimización, importancia de parámetros, gráfica de coordenadas paralelas y *slice plot* de dn_s
 
 > Si el enlace solicita permisos, pide acceso al propietario del repositorio.
