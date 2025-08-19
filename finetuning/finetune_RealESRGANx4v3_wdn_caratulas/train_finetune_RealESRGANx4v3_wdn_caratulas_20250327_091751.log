@@ -1,0 +1,545 @@
+2025-03-27 09:17:51,770 INFO: 
+                ____                _       _____  ____
+               / __ ) ____ _ _____ (_)_____/ ___/ / __ \
+              / __  |/ __ `// ___// // ___/\__ \ / /_/ /
+             / /_/ // /_/ /(__  )/ // /__ ___/ // _, _/
+            /_____/ \__,_//____//_/ \___//____//_/ |_|
+     ______                   __   __                 __      __
+    / ____/____   ____   ____/ /  / /   __  __ _____ / /__   / /
+   / / __ / __ \ / __ \ / __  /  / /   / / / // ___// //_/  / /
+  / /_/ // /_/ // /_/ // /_/ /  / /___/ /_/ // /__ / /<    /_/
+  \____/ \____/ \____/ \____/  /_____/\____/ \___//_/|_|  (_)
+    
+Version Information: 
+	BasicSR: 1.4.2
+	PyTorch: 2.5.1+cu118
+	TorchVision: 0.20.1+cpu
+2025-03-27 09:17:51,771 INFO: 
+  name: finetune_RealESRGANx4v3_wdn_caratulas
+  model_type: RealESRNetModel
+  scale: 4
+  num_gpu: 1
+  manual_seed: 0
+  l1_gt_usm: True
+  percep_gt_usm: True
+  gan_gt_usm: False
+  high_order_degradation: False
+  datasets:[
+    train:[
+      name: CaratulasDataset
+      type: RealESRGANPairedDataset
+      dataroot_gt: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\HR
+      dataroot_lq: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\LR
+      meta_info: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\meta_info_train.txt
+      io_backend:[
+        type: disk
+      ]
+      gt_size: 256
+      use_hflip: True
+      use_rot: False
+      use_shuffle: True
+      num_worker_per_gpu: 6
+      batch_size_per_gpu: 8
+      dataset_enlarge_ratio: 1
+      prefetch_mode: None
+      phase: train
+      scale: 4
+    ]
+    val:[
+      name: caratulas_val
+      type: PairedImageDataset
+      dataroot_gt: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\HR_val
+      dataroot_lq: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\LR_val
+      meta_info: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\meta_info_val.txt
+      io_backend:[
+        type: disk
+      ]
+      phase: val
+      scale: 4
+    ]
+  ]
+  network_g:[
+    type: SRVGGNetCompact
+    num_in_ch: 3
+    num_out_ch: 3
+    num_feat: 64
+    num_conv: 32
+    upscale: 4
+    act_type: prelu
+  ]
+  path:[
+    pretrain_network_g: experiments/pretrained_models/realesr-general-wdn-x4v3.pth
+    param_key_g: params_ema
+    strict_load_g: True
+    resume_state: None
+    experiments_root: H:\MasOrange\CUDA\Real-ESRGAN-CUDA\experiments\finetune_RealESRGANx4v3_wdn_caratulas
+    models: H:\MasOrange\CUDA\Real-ESRGAN-CUDA\experiments\finetune_RealESRGANx4v3_wdn_caratulas\models
+    training_states: H:\MasOrange\CUDA\Real-ESRGAN-CUDA\experiments\finetune_RealESRGANx4v3_wdn_caratulas\training_states
+    log: H:\MasOrange\CUDA\Real-ESRGAN-CUDA\experiments\finetune_RealESRGANx4v3_wdn_caratulas
+    visualization: H:\MasOrange\CUDA\Real-ESRGAN-CUDA\experiments\finetune_RealESRGANx4v3_wdn_caratulas\visualization
+  ]
+  train:[
+    ema_decay: 0.999
+    optim_g:[
+      type: Adam
+      lr: 5e-05
+      weight_decay: 0
+      betas: [0.9, 0.99]
+    ]
+    scheduler:[
+      type: MultiStepLR
+      milestones: [400000]
+      gamma: 0.5
+    ]
+    total_iter: 32000
+    warmup_iter: -1
+    pixel_opt:[
+      type: L1Loss
+      loss_weight: 1.0
+      reduction: mean
+    ]
+  ]
+  val:[
+    val_freq: 5000.0
+    save_img: True
+    metrics:[
+      psnr:[
+        type: calculate_psnr
+        crop_border: 4
+        test_y_channel: False
+      ]
+    ]
+  ]
+  logger:[
+    print_freq: 100
+    save_checkpoint_freq: 5000.0
+    use_tb_logger: True
+    wandb:[
+      project: None
+      resume_id: None
+    ]
+  ]
+  dist_params:[
+    backend: nccl
+    port: 29500
+  ]
+  dist: False
+  rank: 0
+  world_size: 1
+  auto_resume: True
+  is_train: True
+  root_path: H:\MasOrange\CUDA\Real-ESRGAN-CUDA
+
+2025-03-27 09:17:52,986 INFO: Dataset [RealESRGANPairedDataset] - CaratulasDataset is built.
+2025-03-27 09:17:52,987 INFO: Training statistics:
+	Number of train images: 101
+	Dataset enlarge ratio: 1
+	Batch size per gpu: 8
+	World size (gpu number): 1
+	Require iter number per epoch: 13
+	Total epochs: 2462; iters: 32000.
+2025-03-27 09:17:53,026 INFO: Dataset [PairedImageDataset] - caratulas_val is built.
+2025-03-27 09:17:53,027 INFO: Number of val images/folders in caratulas_val: 10
+2025-03-27 09:17:53,034 INFO: Network [SRVGGNetCompact] is created.
+2025-03-27 09:17:53,170 INFO: Network: SRVGGNetCompact, with parameters: 1,213,296
+2025-03-27 09:17:53,170 INFO: SRVGGNetCompact(
+  (body): ModuleList(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): PReLU(num_parameters=64)
+    (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (3): PReLU(num_parameters=64)
+    (4): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): PReLU(num_parameters=64)
+    (6): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): PReLU(num_parameters=64)
+    (8): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): PReLU(num_parameters=64)
+    (10): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): PReLU(num_parameters=64)
+    (12): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): PReLU(num_parameters=64)
+    (14): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): PReLU(num_parameters=64)
+    (16): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): PReLU(num_parameters=64)
+    (18): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (19): PReLU(num_parameters=64)
+    (20): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): PReLU(num_parameters=64)
+    (22): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (23): PReLU(num_parameters=64)
+    (24): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): PReLU(num_parameters=64)
+    (26): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (27): PReLU(num_parameters=64)
+    (28): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (29): PReLU(num_parameters=64)
+    (30): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): PReLU(num_parameters=64)
+    (32): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (33): PReLU(num_parameters=64)
+    (34): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): PReLU(num_parameters=64)
+    (36): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (37): PReLU(num_parameters=64)
+    (38): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (39): PReLU(num_parameters=64)
+    (40): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): PReLU(num_parameters=64)
+    (42): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (43): PReLU(num_parameters=64)
+    (44): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (45): PReLU(num_parameters=64)
+    (46): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (47): PReLU(num_parameters=64)
+    (48): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (49): PReLU(num_parameters=64)
+    (50): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (51): PReLU(num_parameters=64)
+    (52): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (53): PReLU(num_parameters=64)
+    (54): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (55): PReLU(num_parameters=64)
+    (56): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (57): PReLU(num_parameters=64)
+    (58): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (59): PReLU(num_parameters=64)
+    (60): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (61): PReLU(num_parameters=64)
+    (62): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (63): PReLU(num_parameters=64)
+    (64): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (65): PReLU(num_parameters=64)
+    (66): Conv2d(64, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (upsampler): PixelShuffle(upscale_factor=4)
+)
+2025-03-27 09:17:53,252 INFO: Loading: params_ema does not exist, use params.
+2025-03-27 09:17:53,252 INFO: Loading SRVGGNetCompact model from experiments/pretrained_models/realesr-general-wdn-x4v3.pth, with param key: [params].
+2025-03-27 09:17:53,281 INFO: Use Exponential Moving Average with decay: 0.999
+2025-03-27 09:17:53,287 INFO: Network [SRVGGNetCompact] is created.
+2025-03-27 09:17:53,294 INFO: Loading: params_ema does not exist, use params.
+2025-03-27 09:17:53,294 INFO: Loading SRVGGNetCompact model from experiments/pretrained_models/realesr-general-wdn-x4v3.pth, with param key: [params].
+2025-03-27 09:17:53,300 INFO: Loss [L1Loss] is created.
+2025-03-27 09:17:53,440 INFO: Model [RealESRNetModel] is created.
+2025-03-27 09:18:08,398 INFO: Start training from epoch: 0, iter: 0
+2025-03-27 09:20:40,364 INFO: [finet..][epoch:  8, iter:     100, lr:(5.000e-05,)] [eta: 11:22:50, time (data): 1.520 (1.425)] l_pix: 4.9779e-02 
+2025-03-27 09:22:49,003 INFO: [finet..][epoch: 16, iter:     200, lr:(5.000e-05,)] [eta: 11:21:13, time (data): 1.403 (1.339)] l_pix: 5.1296e-02 
+2025-03-27 09:24:58,008 INFO: [finet..][epoch: 24, iter:     300, lr:(5.000e-05,)] [eta: 11:19:54, time (data): 1.303 (1.268)] l_pix: 3.5721e-02 
+2025-03-27 09:27:23,438 INFO: [finet..][epoch: 33, iter:     400, lr:(5.000e-05,)] [eta: 11:39:44, time (data): 1.379 (1.344)] l_pix: 4.1974e-02 
+2025-03-27 09:29:32,410 INFO: [finet..][epoch: 41, iter:     500, lr:(5.000e-05,)] [eta: 11:33:26, time (data): 1.316 (1.280)] l_pix: 4.3767e-02 
+2025-03-27 09:31:41,903 INFO: [finet..][epoch: 49, iter:     600, lr:(5.000e-05,)] [eta: 11:28:59, time (data): 1.305 (1.270)] l_pix: 3.7600e-02 
+2025-03-27 09:34:08,461 INFO: [finet..][epoch: 58, iter:     700, lr:(5.000e-05,)] [eta: 11:37:52, time (data): 1.345 (1.310)] l_pix: 5.1937e-02 
+2025-03-27 09:36:18,346 INFO: [finet..][epoch: 66, iter:     800, lr:(5.000e-05,)] [eta: 11:33:07, time (data): 1.322 (1.289)] l_pix: 4.5729e-02 
+2025-03-27 09:38:28,375 INFO: [finet..][epoch: 74, iter:     900, lr:(5.000e-05,)] [eta: 11:29:01, time (data): 1.354 (1.319)] l_pix: 4.2695e-02 
+2025-03-27 09:40:54,377 INFO: [finet..][epoch: 83, iter:   1,000, lr:(5.000e-05,)] [eta: 11:33:32, time (data): 1.408 (1.372)] l_pix: 4.2621e-02 
+2025-03-27 09:43:05,219 INFO: [finet..][epoch: 91, iter:   1,100, lr:(5.000e-05,)] [eta: 11:29:43, time (data): 1.376 (1.340)] l_pix: 4.3034e-02 
+2025-03-27 09:45:15,452 INFO: [finet..][epoch: 99, iter:   1,200, lr:(5.000e-05,)] [eta: 11:25:54, time (data): 1.338 (1.302)] l_pix: 6.0734e-02 
+2025-03-27 09:47:41,673 INFO: [finet..][epoch:108, iter:   1,300, lr:(5.000e-05,)] [eta: 11:28:38, time (data): 1.383 (1.348)] l_pix: 4.8688e-02 
+2025-03-27 09:49:51,489 INFO: [finet..][epoch:116, iter:   1,400, lr:(5.000e-05,)] [eta: 11:24:39, time (data): 1.339 (1.306)] l_pix: 3.7901e-02 
+2025-03-27 09:52:01,896 INFO: [finet..][epoch:124, iter:   1,500, lr:(5.000e-05,)] [eta: 11:21:06, time (data): 1.229 (1.196)] l_pix: 5.1280e-02 
+2025-03-27 09:54:27,946 INFO: [finet..][epoch:133, iter:   1,600, lr:(5.000e-05,)] [eta: 11:22:41, time (data): 1.349 (1.315)] l_pix: 4.2579e-02 
+2025-03-27 09:56:38,114 INFO: [finet..][epoch:141, iter:   1,700, lr:(5.000e-05,)] [eta: 11:19:05, time (data): 1.413 (1.379)] l_pix: 4.3578e-02 
+2025-03-27 09:58:47,988 INFO: [finet..][epoch:149, iter:   1,800, lr:(5.000e-05,)] [eta: 11:15:33, time (data): 1.354 (1.320)] l_pix: 4.5239e-02 
+2025-03-27 10:01:13,996 INFO: [finet..][epoch:158, iter:   1,900, lr:(5.000e-05,)] [eta: 11:16:26, time (data): 1.427 (1.392)] l_pix: 5.5852e-02 
+2025-03-27 10:03:24,235 INFO: [finet..][epoch:166, iter:   2,000, lr:(5.000e-05,)] [eta: 11:13:02, time (data): 1.362 (1.328)] l_pix: 4.1967e-02 
+2025-03-27 10:05:34,466 INFO: [finet..][epoch:174, iter:   2,100, lr:(5.000e-05,)] [eta: 11:09:45, time (data): 1.266 (1.235)] l_pix: 4.9282e-02 
+2025-03-27 10:08:00,880 INFO: [finet..][epoch:183, iter:   2,200, lr:(5.000e-05,)] [eta: 11:10:13, time (data): 1.370 (1.336)] l_pix: 4.8018e-02 
+2025-03-27 10:10:10,911 INFO: [finet..][epoch:191, iter:   2,300, lr:(5.000e-05,)] [eta: 11:06:55, time (data): 1.279 (1.246)] l_pix: 3.3053e-02 
+2025-03-27 10:12:20,749 INFO: [finet..][epoch:199, iter:   2,400, lr:(5.000e-05,)] [eta: 11:03:40, time (data): 1.289 (1.257)] l_pix: 4.5482e-02 
+2025-03-27 10:14:46,563 INFO: [finet..][epoch:208, iter:   2,500, lr:(5.000e-05,)] [eta: 11:03:38, time (data): 1.473 (1.440)] l_pix: 5.4496e-02 
+2025-03-27 10:16:57,586 INFO: [finet..][epoch:216, iter:   2,600, lr:(5.000e-05,)] [eta: 11:00:38, time (data): 1.386 (1.352)] l_pix: 4.1683e-02 
+2025-03-27 10:19:08,150 INFO: [finet..][epoch:224, iter:   2,700, lr:(5.000e-05,)] [eta: 10:57:37, time (data): 1.312 (1.278)] l_pix: 3.9279e-02 
+2025-03-27 10:21:34,554 INFO: [finet..][epoch:233, iter:   2,800, lr:(5.000e-05,)] [eta: 10:57:25, time (data): 1.393 (1.359)] l_pix: 4.0597e-02 
+2025-03-27 10:23:45,056 INFO: [finet..][epoch:241, iter:   2,900, lr:(5.000e-05,)] [eta: 10:54:24, time (data): 1.326 (1.293)] l_pix: 4.5062e-02 
+2025-03-27 10:25:55,235 INFO: [finet..][epoch:249, iter:   3,000, lr:(5.000e-05,)] [eta: 10:51:23, time (data): 1.313 (1.280)] l_pix: 5.2177e-02 
+2025-03-27 10:28:21,706 INFO: [finet..][epoch:258, iter:   3,100, lr:(5.000e-05,)] [eta: 10:50:57, time (data): 1.340 (1.306)] l_pix: 4.7862e-02 
+2025-03-27 10:30:32,092 INFO: [finet..][epoch:266, iter:   3,200, lr:(5.000e-05,)] [eta: 10:47:59, time (data): 1.320 (1.285)] l_pix: 5.6947e-02 
+2025-03-27 10:32:42,353 INFO: [finet..][epoch:274, iter:   3,300, lr:(5.000e-05,)] [eta: 10:45:03, time (data): 1.357 (1.321)] l_pix: 3.0548e-02 
+2025-03-27 10:35:08,385 INFO: [finet..][epoch:283, iter:   3,400, lr:(5.000e-05,)] [eta: 10:44:22, time (data): 1.413 (1.379)] l_pix: 4.4549e-02 
+2025-03-27 10:37:18,399 INFO: [finet..][epoch:291, iter:   3,500, lr:(5.000e-05,)] [eta: 10:41:25, time (data): 1.369 (1.336)] l_pix: 4.6902e-02 
+2025-03-27 10:39:28,831 INFO: [finet..][epoch:299, iter:   3,600, lr:(5.000e-05,)] [eta: 10:38:33, time (data): 1.334 (1.299)] l_pix: 4.7842e-02 
+2025-03-27 10:41:55,188 INFO: [finet..][epoch:308, iter:   3,700, lr:(5.000e-05,)] [eta: 10:37:46, time (data): 1.389 (1.353)] l_pix: 4.6582e-02 
+2025-03-27 10:44:05,277 INFO: [finet..][epoch:316, iter:   3,800, lr:(5.000e-05,)] [eta: 10:34:53, time (data): 1.340 (1.307)] l_pix: 5.3273e-02 
+2025-03-27 10:46:15,513 INFO: [finet..][epoch:324, iter:   3,900, lr:(5.000e-05,)] [eta: 10:32:03, time (data): 1.209 (1.174)] l_pix: 3.9261e-02 
+2025-03-27 10:48:41,636 INFO: [finet..][epoch:333, iter:   4,000, lr:(5.000e-05,)] [eta: 10:31:06, time (data): 1.348 (1.312)] l_pix: 4.0641e-02 
+2025-03-27 10:50:52,489 INFO: [finet..][epoch:341, iter:   4,100, lr:(5.000e-05,)] [eta: 10:28:21, time (data): 1.430 (1.394)] l_pix: 5.1955e-02 
+2025-03-27 10:53:02,579 INFO: [finet..][epoch:349, iter:   4,200, lr:(5.000e-05,)] [eta: 10:25:32, time (data): 1.358 (1.324)] l_pix: 6.2934e-02 
+2025-03-27 10:55:28,986 INFO: [finet..][epoch:358, iter:   4,300, lr:(5.000e-05,)] [eta: 10:24:30, time (data): 1.442 (1.407)] l_pix: 3.9339e-02 
+2025-03-27 10:57:39,029 INFO: [finet..][epoch:366, iter:   4,400, lr:(5.000e-05,)] [eta: 10:21:42, time (data): 1.363 (1.328)] l_pix: 3.4058e-02 
+2025-03-27 10:59:49,252 INFO: [finet..][epoch:374, iter:   4,500, lr:(5.000e-05,)] [eta: 10:18:57, time (data): 1.255 (1.221)] l_pix: 5.3659e-02 
+2025-03-27 11:02:15,824 INFO: [finet..][epoch:383, iter:   4,600, lr:(5.000e-05,)] [eta: 10:17:51, time (data): 1.373 (1.337)] l_pix: 4.5430e-02 
+2025-03-27 11:04:26,504 INFO: [finet..][epoch:391, iter:   4,700, lr:(5.000e-05,)] [eta: 10:15:08, time (data): 1.273 (1.238)] l_pix: 4.8313e-02 
+2025-03-27 11:06:36,693 INFO: [finet..][epoch:399, iter:   4,800, lr:(5.000e-05,)] [eta: 10:12:25, time (data): 1.290 (1.255)] l_pix: 4.6761e-02 
+2025-03-27 11:09:02,938 INFO: [finet..][epoch:408, iter:   4,900, lr:(5.000e-05,)] [eta: 10:11:11, time (data): 1.496 (1.460)] l_pix: 3.1376e-02 
+2025-03-27 11:11:12,974 INFO: [finet..][epoch:416, iter:   5,000, lr:(5.000e-05,)] [eta: 10:08:27, time (data): 1.385 (1.351)] l_pix: 5.2012e-02 
+2025-03-27 11:11:12,974 INFO: Saving models and training states.
+2025-03-27 11:11:42,813 INFO: Validation caratulas_val
+	 # psnr: 21.7947	Best: 21.7947 @ 5000 iter
+
+2025-03-27 11:13:53,400 INFO: [finet..][epoch:424, iter:   5,100, lr:(5.000e-05,)] [eta: 10:08:25, time (data): 1.305 (1.272)] l_pix: 3.6400e-02 
+2025-03-27 11:16:19,604 INFO: [finet..][epoch:433, iter:   5,200, lr:(5.000e-05,)] [eta: 10:07:03, time (data): 1.395 (1.360)] l_pix: 5.0057e-02 
+2025-03-27 11:18:29,431 INFO: [finet..][epoch:441, iter:   5,300, lr:(5.000e-05,)] [eta: 10:04:17, time (data): 1.314 (1.280)] l_pix: 4.4430e-02 
+2025-03-27 11:20:39,627 INFO: [finet..][epoch:449, iter:   5,400, lr:(5.000e-05,)] [eta: 10:01:34, time (data): 1.307 (1.274)] l_pix: 5.2169e-02 
+2025-03-27 11:23:05,675 INFO: [finet..][epoch:458, iter:   5,500, lr:(5.000e-05,)] [eta: 10:00:08, time (data): 1.334 (1.300)] l_pix: 4.8953e-02 
+2025-03-27 11:25:15,859 INFO: [finet..][epoch:466, iter:   5,600, lr:(5.000e-05,)] [eta: 9:57:25, time (data): 1.315 (1.282)] l_pix: 4.3545e-02 
+2025-03-27 11:27:26,073 INFO: [finet..][epoch:474, iter:   5,700, lr:(5.000e-05,)] [eta: 9:54:43, time (data): 1.355 (1.319)] l_pix: 5.5688e-02 
+2025-03-27 11:29:51,947 INFO: [finet..][epoch:483, iter:   5,800, lr:(5.000e-05,)] [eta: 9:53:14, time (data): 1.415 (1.380)] l_pix: 4.9217e-02 
+2025-03-27 11:32:01,588 INFO: [finet..][epoch:491, iter:   5,900, lr:(5.000e-05,)] [eta: 9:50:30, time (data): 1.369 (1.336)] l_pix: 6.2532e-02 
+2025-03-27 11:34:11,991 INFO: [finet..][epoch:499, iter:   6,000, lr:(5.000e-05,)] [eta: 9:47:51, time (data): 1.331 (1.298)] l_pix: 4.7680e-02 
+2025-03-27 11:36:38,425 INFO: [finet..][epoch:508, iter:   6,100, lr:(5.000e-05,)] [eta: 9:46:21, time (data): 1.396 (1.360)] l_pix: 3.6642e-02 
+2025-03-27 11:38:48,829 INFO: [finet..][epoch:516, iter:   6,200, lr:(5.000e-05,)] [eta: 9:43:43, time (data): 1.342 (1.307)] l_pix: 4.1398e-02 
+2025-03-27 11:40:59,218 INFO: [finet..][epoch:524, iter:   6,300, lr:(5.000e-05,)] [eta: 9:41:05, time (data): 1.184 (1.151)] l_pix: 5.2736e-02 
+2025-03-27 11:43:25,296 INFO: [finet..][epoch:533, iter:   6,400, lr:(5.000e-05,)] [eta: 9:39:31, time (data): 1.348 (1.313)] l_pix: 5.2537e-02 
+2025-03-27 11:45:35,336 INFO: [finet..][epoch:541, iter:   6,500, lr:(5.000e-05,)] [eta: 9:36:53, time (data): 1.434 (1.397)] l_pix: 4.4725e-02 
+2025-03-27 11:47:46,087 INFO: [finet..][epoch:549, iter:   6,600, lr:(5.000e-05,)] [eta: 9:34:18, time (data): 1.359 (1.322)] l_pix: 4.2449e-02 
+2025-03-27 11:50:12,570 INFO: [finet..][epoch:558, iter:   6,700, lr:(5.000e-05,)] [eta: 9:32:43, time (data): 1.458 (1.424)] l_pix: 3.4426e-02 
+2025-03-27 11:52:22,397 INFO: [finet..][epoch:566, iter:   6,800, lr:(5.000e-05,)] [eta: 9:30:05, time (data): 1.363 (1.328)] l_pix: 3.8671e-02 
+2025-03-27 11:54:32,412 INFO: [finet..][epoch:574, iter:   6,900, lr:(5.000e-05,)] [eta: 9:27:28, time (data): 1.231 (1.201)] l_pix: 4.1158e-02 
+2025-03-27 11:56:58,846 INFO: [finet..][epoch:583, iter:   7,000, lr:(5.000e-05,)] [eta: 9:25:51, time (data): 1.372 (1.337)] l_pix: 4.4817e-02 
+2025-03-27 11:59:09,250 INFO: [finet..][epoch:591, iter:   7,100, lr:(5.000e-05,)] [eta: 9:23:16, time (data): 1.256 (1.219)] l_pix: 3.4319e-02 
+2025-03-27 12:01:19,087 INFO: [finet..][epoch:599, iter:   7,200, lr:(5.000e-05,)] [eta: 9:20:40, time (data): 1.282 (1.246)] l_pix: 3.9960e-02 
+2025-03-27 12:03:44,913 INFO: [finet..][epoch:608, iter:   7,300, lr:(5.000e-05,)] [eta: 9:18:59, time (data): 1.519 (1.482)] l_pix: 4.8072e-02 
+2025-03-27 12:05:54,742 INFO: [finet..][epoch:616, iter:   7,400, lr:(5.000e-05,)] [eta: 9:16:23, time (data): 1.385 (1.350)] l_pix: 3.7914e-02 
+2025-03-27 12:08:04,707 INFO: [finet..][epoch:624, iter:   7,500, lr:(5.000e-05,)] [eta: 9:13:49, time (data): 1.288 (1.256)] l_pix: 3.7885e-02 
+2025-03-27 12:10:30,404 INFO: [finet..][epoch:633, iter:   7,600, lr:(5.000e-05,)] [eta: 9:12:06, time (data): 1.392 (1.358)] l_pix: 5.2071e-02 
+2025-03-27 12:12:40,623 INFO: [finet..][epoch:641, iter:   7,700, lr:(5.000e-05,)] [eta: 9:09:32, time (data): 1.313 (1.279)] l_pix: 4.3011e-02 
+2025-03-27 12:14:50,985 INFO: [finet..][epoch:649, iter:   7,800, lr:(5.000e-05,)] [eta: 9:07:00, time (data): 1.307 (1.272)] l_pix: 3.7730e-02 
+2025-03-27 12:17:17,587 INFO: [finet..][epoch:658, iter:   7,900, lr:(5.000e-05,)] [eta: 9:05:18, time (data): 1.336 (1.303)] l_pix: 5.8737e-02 
+2025-03-27 12:19:27,886 INFO: [finet..][epoch:666, iter:   8,000, lr:(5.000e-05,)] [eta: 9:02:46, time (data): 1.316 (1.281)] l_pix: 4.5494e-02 
+2025-03-27 12:21:38,121 INFO: [finet..][epoch:674, iter:   8,100, lr:(5.000e-05,)] [eta: 9:00:14, time (data): 1.353 (1.321)] l_pix: 4.4858e-02 
+2025-03-27 12:24:04,123 INFO: [finet..][epoch:683, iter:   8,200, lr:(5.000e-05,)] [eta: 8:58:28, time (data): 1.420 (1.386)] l_pix: 4.8303e-02 
+2025-03-27 12:26:14,550 INFO: [finet..][epoch:691, iter:   8,300, lr:(5.000e-05,)] [eta: 8:55:57, time (data): 1.382 (1.346)] l_pix: 3.8647e-02 
+2025-03-27 12:28:24,389 INFO: [finet..][epoch:699, iter:   8,400, lr:(5.000e-05,)] [eta: 8:53:25, time (data): 1.330 (1.295)] l_pix: 5.5241e-02 
+2025-03-27 12:30:50,593 INFO: [finet..][epoch:708, iter:   8,500, lr:(5.000e-05,)] [eta: 8:51:39, time (data): 1.400 (1.365)] l_pix: 3.7983e-02 
+2025-03-27 12:33:00,840 INFO: [finet..][epoch:716, iter:   8,600, lr:(5.000e-05,)] [eta: 8:49:08, time (data): 1.338 (1.303)] l_pix: 4.5585e-02 
+2025-03-27 12:35:10,858 INFO: [finet..][epoch:724, iter:   8,700, lr:(5.000e-05,)] [eta: 8:46:37, time (data): 1.139 (1.110)] l_pix: 5.2750e-02 
+2025-03-27 12:37:37,293 INFO: [finet..][epoch:733, iter:   8,800, lr:(5.000e-05,)] [eta: 8:44:50, time (data): 1.346 (1.313)] l_pix: 4.1556e-02 
+2025-03-27 12:39:47,272 INFO: [finet..][epoch:741, iter:   8,900, lr:(5.000e-05,)] [eta: 8:42:20, time (data): 1.448 (1.413)] l_pix: 3.5722e-02 
+2025-03-27 12:41:57,751 INFO: [finet..][epoch:749, iter:   9,000, lr:(5.000e-05,)] [eta: 8:39:51, time (data): 1.356 (1.322)] l_pix: 4.6533e-02 
+2025-03-27 12:44:23,960 INFO: [finet..][epoch:758, iter:   9,100, lr:(5.000e-05,)] [eta: 8:38:02, time (data): 1.474 (1.441)] l_pix: 4.3568e-02 
+2025-03-27 12:46:34,373 INFO: [finet..][epoch:766, iter:   9,200, lr:(5.000e-05,)] [eta: 8:35:33, time (data): 1.365 (1.330)] l_pix: 3.6987e-02 
+2025-03-27 12:48:44,624 INFO: [finet..][epoch:774, iter:   9,300, lr:(5.000e-05,)] [eta: 8:33:04, time (data): 1.205 (1.176)] l_pix: 4.4476e-02 
+2025-03-27 12:51:11,009 INFO: [finet..][epoch:783, iter:   9,400, lr:(5.000e-05,)] [eta: 8:31:14, time (data): 1.373 (1.339)] l_pix: 4.6063e-02 
+2025-03-27 12:53:21,038 INFO: [finet..][epoch:791, iter:   9,500, lr:(5.000e-05,)] [eta: 8:28:45, time (data): 1.227 (1.193)] l_pix: 4.2084e-02 
+2025-03-27 12:55:30,881 INFO: [finet..][epoch:799, iter:   9,600, lr:(5.000e-05,)] [eta: 8:26:16, time (data): 1.274 (1.241)] l_pix: 4.4379e-02 
+2025-03-27 12:57:57,225 INFO: [finet..][epoch:808, iter:   9,700, lr:(5.000e-05,)] [eta: 8:24:25, time (data): 1.561 (1.524)] l_pix: 5.2475e-02 
+2025-03-27 13:00:07,140 INFO: [finet..][epoch:816, iter:   9,800, lr:(5.000e-05,)] [eta: 8:21:56, time (data): 1.389 (1.354)] l_pix: 3.1022e-02 
+2025-03-27 13:02:17,170 INFO: [finet..][epoch:824, iter:   9,900, lr:(5.000e-05,)] [eta: 8:19:27, time (data): 1.272 (1.242)] l_pix: 3.8697e-02 
+2025-03-27 13:04:43,311 INFO: [finet..][epoch:833, iter:  10,000, lr:(5.000e-05,)] [eta: 8:17:35, time (data): 1.397 (1.365)] l_pix: 3.0916e-02 
+2025-03-27 13:04:43,311 INFO: Saving models and training states.
+2025-03-27 13:04:45,291 INFO: Validation caratulas_val
+	 # psnr: 21.7456	Best: 21.7947 @ 5000 iter
+
+2025-03-27 13:06:55,745 INFO: [finet..][epoch:841, iter:  10,100, lr:(5.000e-05,)] [eta: 8:15:12, time (data): 1.307 (1.271)] l_pix: 4.3176e-02 
+2025-03-27 13:09:06,225 INFO: [finet..][epoch:849, iter:  10,200, lr:(5.000e-05,)] [eta: 8:12:45, time (data): 1.306 (1.270)] l_pix: 4.4012e-02 
+2025-03-27 13:11:32,383 INFO: [finet..][epoch:858, iter:  10,300, lr:(5.000e-05,)] [eta: 8:10:52, time (data): 1.329 (1.295)] l_pix: 4.3814e-02 
+2025-03-27 13:13:42,630 INFO: [finet..][epoch:866, iter:  10,400, lr:(5.000e-05,)] [eta: 8:08:25, time (data): 1.311 (1.277)] l_pix: 4.6297e-02 
+2025-03-27 13:15:53,503 INFO: [finet..][epoch:874, iter:  10,500, lr:(5.000e-05,)] [eta: 8:05:59, time (data): 1.362 (1.327)] l_pix: 3.3168e-02 
+2025-03-27 13:18:20,122 INFO: [finet..][epoch:883, iter:  10,600, lr:(5.000e-05,)] [eta: 8:04:06, time (data): 1.432 (1.396)] l_pix: 3.4711e-02 
+2025-03-27 13:20:30,558 INFO: [finet..][epoch:891, iter:  10,700, lr:(5.000e-05,)] [eta: 8:01:40, time (data): 1.388 (1.353)] l_pix: 5.3191e-02 
+2025-03-27 13:22:41,121 INFO: [finet..][epoch:899, iter:  10,800, lr:(5.000e-05,)] [eta: 7:59:14, time (data): 1.332 (1.298)] l_pix: 3.9767e-02 
+2025-03-27 13:25:07,917 INFO: [finet..][epoch:908, iter:  10,900, lr:(5.000e-05,)] [eta: 7:57:20, time (data): 1.420 (1.381)] l_pix: 3.7444e-02 
+2025-03-27 13:27:18,641 INFO: [finet..][epoch:916, iter:  11,000, lr:(5.000e-05,)] [eta: 7:54:54, time (data): 1.343 (1.306)] l_pix: 4.2603e-02 
+2025-03-27 13:29:29,401 INFO: [finet..][epoch:924, iter:  11,100, lr:(5.000e-05,)] [eta: 7:52:29, time (data): 1.091 (1.058)] l_pix: 3.6280e-02 
+2025-03-27 13:31:56,251 INFO: [finet..][epoch:933, iter:  11,200, lr:(5.000e-05,)] [eta: 7:50:35, time (data): 1.351 (1.316)] l_pix: 4.5672e-02 
+2025-03-27 13:34:07,107 INFO: [finet..][epoch:941, iter:  11,300, lr:(5.000e-05,)] [eta: 7:48:10, time (data): 1.485 (1.449)] l_pix: 4.6157e-02 
+2025-03-27 13:36:17,506 INFO: [finet..][epoch:949, iter:  11,400, lr:(5.000e-05,)] [eta: 7:45:45, time (data): 1.359 (1.324)] l_pix: 4.3781e-02 
+2025-03-27 13:38:43,948 INFO: [finet..][epoch:958, iter:  11,500, lr:(5.000e-05,)] [eta: 7:43:48, time (data): 1.514 (1.478)] l_pix: 5.0366e-02 
+2025-03-27 13:40:54,369 INFO: [finet..][epoch:966, iter:  11,600, lr:(5.000e-05,)] [eta: 7:41:23, time (data): 1.367 (1.333)] l_pix: 2.8823e-02 
+2025-03-27 13:43:04,945 INFO: [finet..][epoch:974, iter:  11,700, lr:(5.000e-05,)] [eta: 7:38:58, time (data): 1.172 (1.138)] l_pix: 4.0179e-02 
+2025-03-27 13:45:31,223 INFO: [finet..][epoch:983, iter:  11,800, lr:(5.000e-05,)] [eta: 7:37:01, time (data): 1.377 (1.341)] l_pix: 4.9418e-02 
+2025-03-27 13:47:41,599 INFO: [finet..][epoch:991, iter:  11,900, lr:(5.000e-05,)] [eta: 7:34:36, time (data): 1.196 (1.163)] l_pix: 4.8748e-02 
+2025-03-27 13:49:51,676 INFO: [finet..][epoch:999, iter:  12,000, lr:(5.000e-05,)] [eta: 7:32:11, time (data): 1.270 (1.238)] l_pix: 3.9153e-02 
+2025-03-27 13:52:18,092 INFO: [finet..][epoch:1008, iter:  12,100, lr:(5.000e-05,)] [eta: 7:30:13, time (data): 1.626 (1.589)] l_pix: 4.7219e-02 
+2025-03-27 13:54:28,266 INFO: [finet..][epoch:1016, iter:  12,200, lr:(5.000e-05,)] [eta: 7:27:48, time (data): 1.394 (1.360)] l_pix: 3.7029e-02 
+2025-03-27 13:56:38,351 INFO: [finet..][epoch:1024, iter:  12,300, lr:(5.000e-05,)] [eta: 7:25:23, time (data): 1.252 (1.219)] l_pix: 4.9957e-02 
+2025-03-27 13:59:04,985 INFO: [finet..][epoch:1033, iter:  12,400, lr:(5.000e-05,)] [eta: 7:23:25, time (data): 1.406 (1.370)] l_pix: 3.6428e-02 
+2025-03-27 14:01:15,537 INFO: [finet..][epoch:1041, iter:  12,500, lr:(5.000e-05,)] [eta: 7:21:01, time (data): 1.294 (1.257)] l_pix: 2.8350e-02 
+2025-03-27 14:03:25,959 INFO: [finet..][epoch:1049, iter:  12,600, lr:(5.000e-05,)] [eta: 7:18:37, time (data): 1.301 (1.266)] l_pix: 6.0143e-02 
+2025-03-27 14:05:52,046 INFO: [finet..][epoch:1058, iter:  12,700, lr:(5.000e-05,)] [eta: 7:16:38, time (data): 1.319 (1.286)] l_pix: 3.8698e-02 
+2025-03-27 14:08:02,483 INFO: [finet..][epoch:1066, iter:  12,800, lr:(5.000e-05,)] [eta: 7:14:14, time (data): 1.308 (1.274)] l_pix: 3.5696e-02 
+2025-03-27 14:10:12,840 INFO: [finet..][epoch:1074, iter:  12,900, lr:(5.000e-05,)] [eta: 7:11:50, time (data): 1.354 (1.320)] l_pix: 3.4884e-02 
+2025-03-27 14:12:39,429 INFO: [finet..][epoch:1083, iter:  13,000, lr:(5.000e-05,)] [eta: 7:09:51, time (data): 1.436 (1.399)] l_pix: 5.2656e-02 
+2025-03-27 14:14:49,904 INFO: [finet..][epoch:1091, iter:  13,100, lr:(5.000e-05,)] [eta: 7:07:27, time (data): 1.398 (1.363)] l_pix: 2.9560e-02 
+2025-03-27 14:17:00,553 INFO: [finet..][epoch:1099, iter:  13,200, lr:(5.000e-05,)] [eta: 7:05:04, time (data): 1.330 (1.296)] l_pix: 3.3759e-02 
+2025-03-27 14:19:26,975 INFO: [finet..][epoch:1108, iter:  13,300, lr:(5.000e-05,)] [eta: 7:03:04, time (data): 1.435 (1.398)] l_pix: 3.8317e-02 
+2025-03-27 14:21:37,189 INFO: [finet..][epoch:1116, iter:  13,400, lr:(5.000e-05,)] [eta: 7:00:40, time (data): 1.336 (1.302)] l_pix: 4.9402e-02 
+2025-03-27 14:23:46,855 INFO: [finet..][epoch:1124, iter:  13,500, lr:(5.000e-05,)] [eta: 6:58:16, time (data): 0.987 (0.956)] l_pix: 3.5213e-02 
+2025-03-27 14:26:13,247 INFO: [finet..][epoch:1133, iter:  13,600, lr:(5.000e-05,)] [eta: 6:56:15, time (data): 1.346 (1.309)] l_pix: 2.8960e-02 
+2025-03-27 14:28:23,290 INFO: [finet..][epoch:1141, iter:  13,700, lr:(5.000e-05,)] [eta: 6:53:52, time (data): 1.518 (1.486)] l_pix: 4.5767e-02 
+2025-03-27 14:30:33,292 INFO: [finet..][epoch:1149, iter:  13,800, lr:(5.000e-05,)] [eta: 6:51:29, time (data): 1.353 (1.320)] l_pix: 4.2948e-02 
+2025-03-27 14:32:59,479 INFO: [finet..][epoch:1158, iter:  13,900, lr:(5.000e-05,)] [eta: 6:49:27, time (data): 1.576 (1.539)] l_pix: 3.8756e-02 
+2025-03-27 14:35:09,558 INFO: [finet..][epoch:1166, iter:  14,000, lr:(5.000e-05,)] [eta: 6:47:04, time (data): 1.366 (1.334)] l_pix: 3.2693e-02 
+2025-03-27 14:37:19,566 INFO: [finet..][epoch:1174, iter:  14,100, lr:(5.000e-05,)] [eta: 6:44:41, time (data): 1.089 (1.059)] l_pix: 4.2857e-02 
+2025-03-27 14:39:45,607 INFO: [finet..][epoch:1183, iter:  14,200, lr:(5.000e-05,)] [eta: 6:42:38, time (data): 1.375 (1.342)] l_pix: 4.5796e-02 
+2025-03-27 14:41:55,779 INFO: [finet..][epoch:1191, iter:  14,300, lr:(5.000e-05,)] [eta: 6:40:15, time (data): 1.124 (1.091)] l_pix: 5.0924e-02 
+2025-03-27 14:44:05,995 INFO: [finet..][epoch:1199, iter:  14,400, lr:(5.000e-05,)] [eta: 6:37:53, time (data): 1.262 (1.230)] l_pix: 4.2154e-02 
+2025-03-27 14:46:32,663 INFO: [finet..][epoch:1208, iter:  14,500, lr:(5.000e-05,)] [eta: 6:35:51, time (data): 1.737 (1.696)] l_pix: 3.6331e-02 
+2025-03-27 14:48:42,911 INFO: [finet..][epoch:1216, iter:  14,600, lr:(5.000e-05,)] [eta: 6:33:28, time (data): 1.398 (1.362)] l_pix: 4.2828e-02 
+2025-03-27 14:50:52,940 INFO: [finet..][epoch:1224, iter:  14,700, lr:(5.000e-05,)] [eta: 6:31:06, time (data): 1.202 (1.172)] l_pix: 3.9548e-02 
+2025-03-27 14:53:19,565 INFO: [finet..][epoch:1233, iter:  14,800, lr:(5.000e-05,)] [eta: 6:29:03, time (data): 1.410 (1.375)] l_pix: 3.9563e-02 
+2025-03-27 14:55:29,732 INFO: [finet..][epoch:1241, iter:  14,900, lr:(5.000e-05,)] [eta: 6:26:41, time (data): 1.252 (1.217)] l_pix: 3.7523e-02 
+2025-03-27 14:57:40,012 INFO: [finet..][epoch:1249, iter:  15,000, lr:(5.000e-05,)] [eta: 6:24:19, time (data): 1.292 (1.259)] l_pix: 3.2277e-02 
+2025-03-27 14:57:40,012 INFO: Saving models and training states.
+2025-03-27 14:57:42,093 INFO: Validation caratulas_val
+	 # psnr: 21.6951	Best: 21.7947 @ 5000 iter
+
+2025-03-27 15:00:08,560 INFO: [finet..][epoch:1258, iter:  15,100, lr:(5.000e-05,)] [eta: 6:22:18, time (data): 1.301 (1.266)] l_pix: 3.5897e-02 
+2025-03-27 15:02:19,073 INFO: [finet..][epoch:1266, iter:  15,200, lr:(5.000e-05,)] [eta: 6:19:56, time (data): 1.304 (1.270)] l_pix: 3.4373e-02 
+2025-03-27 15:04:29,274 INFO: [finet..][epoch:1274, iter:  15,300, lr:(5.000e-05,)] [eta: 6:17:35, time (data): 1.358 (1.325)] l_pix: 4.0460e-02 
+2025-03-27 15:06:55,878 INFO: [finet..][epoch:1283, iter:  15,400, lr:(5.000e-05,)] [eta: 6:15:31, time (data): 1.445 (1.410)] l_pix: 5.0115e-02 
+2025-03-27 15:09:06,477 INFO: [finet..][epoch:1291, iter:  15,500, lr:(5.000e-05,)] [eta: 6:13:10, time (data): 1.416 (1.380)] l_pix: 4.0573e-02 
+2025-03-27 15:11:16,358 INFO: [finet..][epoch:1299, iter:  15,600, lr:(5.000e-05,)] [eta: 6:10:48, time (data): 1.321 (1.287)] l_pix: 3.2688e-02 
+2025-03-27 15:13:43,174 INFO: [finet..][epoch:1308, iter:  15,700, lr:(5.000e-05,)] [eta: 6:08:44, time (data): 1.480 (1.443)] l_pix: 3.3637e-02 
+2025-03-27 15:15:53,791 INFO: [finet..][epoch:1316, iter:  15,800, lr:(5.000e-05,)] [eta: 6:06:23, time (data): 1.338 (1.302)] l_pix: 4.2288e-02 
+2025-03-27 15:18:04,044 INFO: [finet..][epoch:1324, iter:  15,900, lr:(5.000e-05,)] [eta: 6:04:02, time (data): 0.779 (0.754)] l_pix: 3.2337e-02 
+2025-03-27 15:20:30,259 INFO: [finet..][epoch:1333, iter:  16,000, lr:(5.000e-05,)] [eta: 6:01:56, time (data): 1.344 (1.310)] l_pix: 4.4828e-02 
+2025-03-27 15:22:40,428 INFO: [finet..][epoch:1341, iter:  16,100, lr:(5.000e-05,)] [eta: 5:59:35, time (data): 1.624 (1.584)] l_pix: 3.7809e-02 
+2025-03-27 15:24:50,713 INFO: [finet..][epoch:1349, iter:  16,200, lr:(5.000e-05,)] [eta: 5:57:14, time (data): 1.356 (1.321)] l_pix: 4.5957e-02 
+2025-03-27 15:27:33,112 INFO: [finet..][epoch:1358, iter:  16,300, lr:(5.000e-05,)] [eta: 5:55:24, time (data): 1.712 (1.674)] l_pix: 3.6743e-02 
+2025-03-27 15:29:43,549 INFO: [finet..][epoch:1366, iter:  16,400, lr:(5.000e-05,)] [eta: 5:53:03, time (data): 1.369 (1.333)] l_pix: 5.0168e-02 
+2025-03-27 15:31:53,972 INFO: [finet..][epoch:1374, iter:  16,500, lr:(5.000e-05,)] [eta: 5:50:42, time (data): 0.906 (0.878)] l_pix: 4.3069e-02 
+2025-03-27 15:34:20,588 INFO: [finet..][epoch:1383, iter:  16,600, lr:(5.000e-05,)] [eta: 5:48:37, time (data): 1.381 (1.346)] l_pix: 5.4361e-02 
+2025-03-27 15:36:31,992 INFO: [finet..][epoch:1391, iter:  16,700, lr:(5.000e-05,)] [eta: 5:46:17, time (data): 0.992 (0.961)] l_pix: 3.7331e-02 
+2025-03-27 15:38:44,616 INFO: [finet..][epoch:1399, iter:  16,800, lr:(5.000e-05,)] [eta: 5:43:58, time (data): 1.278 (1.244)] l_pix: 3.9138e-02 
+2025-03-27 15:41:11,473 INFO: [finet..][epoch:1408, iter:  16,900, lr:(5.000e-05,)] [eta: 5:41:52, time (data): 2.030 (1.985)] l_pix: 3.8092e-02 
+2025-03-27 15:43:21,889 INFO: [finet..][epoch:1416, iter:  17,000, lr:(5.000e-05,)] [eta: 5:39:32, time (data): 1.404 (1.368)] l_pix: 3.4762e-02 
+2025-03-27 15:45:31,926 INFO: [finet..][epoch:1424, iter:  17,100, lr:(5.000e-05,)] [eta: 5:37:11, time (data): 1.084 (1.054)] l_pix: 3.8185e-02 
+2025-03-27 15:47:58,745 INFO: [finet..][epoch:1433, iter:  17,200, lr:(5.000e-05,)] [eta: 5:35:04, time (data): 1.418 (1.382)] l_pix: 4.2967e-02 
+2025-03-27 15:50:09,108 INFO: [finet..][epoch:1441, iter:  17,300, lr:(5.000e-05,)] [eta: 5:32:44, time (data): 1.169 (1.133)] l_pix: 4.6449e-02 
+2025-03-27 15:52:19,568 INFO: [finet..][epoch:1449, iter:  17,400, lr:(5.000e-05,)] [eta: 5:30:24, time (data): 1.288 (1.253)] l_pix: 4.8579e-02 
+2025-03-27 15:54:45,786 INFO: [finet..][epoch:1458, iter:  17,500, lr:(5.000e-05,)] [eta: 5:28:16, time (data): 1.261 (1.227)] l_pix: 4.4285e-02 
+2025-03-27 15:56:56,817 INFO: [finet..][epoch:1466, iter:  17,600, lr:(5.000e-05,)] [eta: 5:25:57, time (data): 1.305 (1.270)] l_pix: 3.6109e-02 
+2025-03-27 15:59:07,413 INFO: [finet..][epoch:1474, iter:  17,700, lr:(5.000e-05,)] [eta: 5:23:37, time (data): 1.380 (1.341)] l_pix: 3.6981e-02 
+2025-03-27 16:01:33,485 INFO: [finet..][epoch:1483, iter:  17,800, lr:(5.000e-05,)] [eta: 5:21:29, time (data): 1.452 (1.418)] l_pix: 3.3087e-02 
+2025-03-27 16:03:43,902 INFO: [finet..][epoch:1491, iter:  17,900, lr:(5.000e-05,)] [eta: 5:19:09, time (data): 1.475 (1.440)] l_pix: 4.2165e-02 
+2025-03-27 16:05:53,935 INFO: [finet..][epoch:1499, iter:  18,000, lr:(5.000e-05,)] [eta: 5:16:49, time (data): 1.318 (1.285)] l_pix: 4.0223e-02 
+2025-03-27 16:08:20,901 INFO: [finet..][epoch:1508, iter:  18,100, lr:(5.000e-05,)] [eta: 5:14:41, time (data): 1.631 (1.589)] l_pix: 3.2743e-02 
+2025-03-27 16:10:31,179 INFO: [finet..][epoch:1516, iter:  18,200, lr:(5.000e-05,)] [eta: 5:12:21, time (data): 1.333 (1.299)] l_pix: 4.1948e-02 
+2025-03-27 16:12:41,258 INFO: [finet..][epoch:1524, iter:  18,300, lr:(5.000e-05,)] [eta: 5:10:01, time (data): 0.022 (0.006)] l_pix: 3.6814e-02 
+2025-03-27 16:15:07,828 INFO: [finet..][epoch:1533, iter:  18,400, lr:(5.000e-05,)] [eta: 5:07:53, time (data): 1.346 (1.310)] l_pix: 3.5659e-02 
+2025-03-27 16:17:18,031 INFO: [finet..][epoch:1541, iter:  18,500, lr:(5.000e-05,)] [eta: 5:05:33, time (data): 2.037 (1.988)] l_pix: 5.2601e-02 
+2025-03-27 16:19:28,092 INFO: [finet..][epoch:1549, iter:  18,600, lr:(5.000e-05,)] [eta: 5:03:13, time (data): 1.355 (1.322)] l_pix: 4.5490e-02 
+2025-03-27 16:21:55,913 INFO: [finet..][epoch:1558, iter:  18,700, lr:(5.000e-05,)] [eta: 5:01:06, time (data): 2.339 (2.291)] l_pix: 5.8222e-02 
+2025-03-27 16:24:06,730 INFO: [finet..][epoch:1566, iter:  18,800, lr:(5.000e-05,)] [eta: 4:58:47, time (data): 1.376 (1.340)] l_pix: 3.8220e-02 
+2025-03-27 16:26:17,308 INFO: [finet..][epoch:1574, iter:  18,900, lr:(5.000e-05,)] [eta: 4:56:27, time (data): 0.019 (0.001)] l_pix: 3.4634e-02 
+2025-03-27 16:28:43,565 INFO: [finet..][epoch:1583, iter:  19,000, lr:(5.000e-05,)] [eta: 4:54:19, time (data): 1.381 (1.346)] l_pix: 3.5567e-02 
+2025-03-27 16:30:54,208 INFO: [finet..][epoch:1591, iter:  19,100, lr:(5.000e-05,)] [eta: 4:51:59, time (data): 0.016 (0.000)] l_pix: 3.8932e-02 
+2025-03-27 16:33:05,032 INFO: [finet..][epoch:1599, iter:  19,200, lr:(5.000e-05,)] [eta: 4:49:40, time (data): 1.247 (1.212)] l_pix: 5.3641e-02 
+2025-03-27 16:35:31,249 INFO: [finet..][epoch:1608, iter:  19,300, lr:(5.000e-05,)] [eta: 4:47:31, time (data): 4.020 (3.969)] l_pix: 4.3227e-02 
+2025-03-27 16:37:41,282 INFO: [finet..][epoch:1616, iter:  19,400, lr:(5.000e-05,)] [eta: 4:45:12, time (data): 1.405 (1.371)] l_pix: 4.8553e-02 
+2025-03-27 16:39:51,854 INFO: [finet..][epoch:1624, iter:  19,500, lr:(5.000e-05,)] [eta: 4:42:52, time (data): 0.016 (0.000)] l_pix: 3.6833e-02 
+2025-03-27 16:42:18,458 INFO: [finet..][epoch:1633, iter:  19,600, lr:(5.000e-05,)] [eta: 4:40:43, time (data): 1.424 (1.387)] l_pix: 4.2539e-02 
+2025-03-27 16:44:28,693 INFO: [finet..][epoch:1641, iter:  19,700, lr:(5.000e-05,)] [eta: 4:38:24, time (data): 0.016 (0.000)] l_pix: 4.2043e-02 
+2025-03-27 16:46:38,940 INFO: [finet..][epoch:1649, iter:  19,800, lr:(5.000e-05,)] [eta: 4:36:05, time (data): 1.277 (1.246)] l_pix: 3.8215e-02 
+2025-03-27 16:49:05,721 INFO: [finet..][epoch:1658, iter:  19,900, lr:(5.000e-05,)] [eta: 4:33:56, time (data): 0.054 (0.000)] l_pix: 3.3286e-02 
+2025-03-27 16:51:16,575 INFO: [finet..][epoch:1666, iter:  20,000, lr:(5.000e-05,)] [eta: 4:31:37, time (data): 1.296 (1.260)] l_pix: 4.5126e-02 
+2025-03-27 16:51:16,575 INFO: Saving models and training states.
+2025-03-27 16:51:18,959 INFO: Validation caratulas_val
+	 # psnr: 21.6369	Best: 21.7947 @ 5000 iter
+
+2025-03-27 16:53:29,032 INFO: [finet..][epoch:1674, iter:  20,100, lr:(5.000e-05,)] [eta: 4:29:19, time (data): 1.298 (1.264)] l_pix: 4.3293e-02 
+2025-03-27 16:55:55,446 INFO: [finet..][epoch:1683, iter:  20,200, lr:(5.000e-05,)] [eta: 4:27:09, time (data): 1.464 (1.428)] l_pix: 4.3843e-02 
+2025-03-27 16:58:06,104 INFO: [finet..][epoch:1691, iter:  20,300, lr:(5.000e-05,)] [eta: 4:24:51, time (data): 1.385 (1.350)] l_pix: 4.4129e-02 
+2025-03-27 17:00:16,535 INFO: [finet..][epoch:1699, iter:  20,400, lr:(5.000e-05,)] [eta: 4:22:32, time (data): 1.317 (1.283)] l_pix: 4.3536e-02 
+2025-03-27 17:02:42,861 INFO: [finet..][epoch:1708, iter:  20,500, lr:(5.000e-05,)] [eta: 4:20:22, time (data): 1.391 (1.355)] l_pix: 3.6676e-02 
+2025-03-27 17:04:53,182 INFO: [finet..][epoch:1716, iter:  20,600, lr:(5.000e-05,)] [eta: 4:18:03, time (data): 1.329 (1.295)] l_pix: 3.7996e-02 
+2025-03-27 17:07:03,392 INFO: [finet..][epoch:1724, iter:  20,700, lr:(5.000e-05,)] [eta: 4:15:44, time (data): 1.315 (1.282)] l_pix: 3.8338e-02 
+2025-03-27 17:09:29,923 INFO: [finet..][epoch:1733, iter:  20,800, lr:(5.000e-05,)] [eta: 4:13:34, time (data): 1.344 (1.308)] l_pix: 3.0023e-02 
+2025-03-27 17:11:40,390 INFO: [finet..][epoch:1741, iter:  20,900, lr:(5.000e-05,)] [eta: 4:11:15, time (data): 1.324 (1.289)] l_pix: 4.2923e-02 
+2025-03-27 17:13:51,018 INFO: [finet..][epoch:1749, iter:  21,000, lr:(5.000e-05,)] [eta: 4:08:57, time (data): 1.360 (1.325)] l_pix: 3.6924e-02 
+2025-03-27 17:16:17,500 INFO: [finet..][epoch:1758, iter:  21,100, lr:(5.000e-05,)] [eta: 4:06:46, time (data): 1.413 (1.378)] l_pix: 3.5948e-02 
+2025-03-27 17:18:28,114 INFO: [finet..][epoch:1766, iter:  21,200, lr:(5.000e-05,)] [eta: 4:04:28, time (data): 1.374 (1.338)] l_pix: 3.4301e-02 
+2025-03-27 17:20:38,502 INFO: [finet..][epoch:1774, iter:  21,300, lr:(5.000e-05,)] [eta: 4:02:09, time (data): 1.338 (1.304)] l_pix: 2.8906e-02 
+2025-03-27 17:23:04,780 INFO: [finet..][epoch:1783, iter:  21,400, lr:(5.000e-05,)] [eta: 3:59:59, time (data): 1.383 (1.348)] l_pix: 4.4917e-02 
+2025-03-27 17:25:15,595 INFO: [finet..][epoch:1791, iter:  21,500, lr:(5.000e-05,)] [eta: 3:57:40, time (data): 1.344 (1.310)] l_pix: 4.2736e-02 
+2025-03-27 17:27:25,822 INFO: [finet..][epoch:1799, iter:  21,600, lr:(5.000e-05,)] [eta: 3:55:22, time (data): 1.226 (1.193)] l_pix: 4.5432e-02 
+2025-03-27 17:29:52,039 INFO: [finet..][epoch:1808, iter:  21,700, lr:(5.000e-05,)] [eta: 3:53:11, time (data): 1.349 (1.314)] l_pix: 3.1880e-02 
+2025-03-27 17:32:02,259 INFO: [finet..][epoch:1816, iter:  21,800, lr:(5.000e-05,)] [eta: 3:50:52, time (data): 1.414 (1.381)] l_pix: 4.1782e-02 
+2025-03-27 17:34:12,632 INFO: [finet..][epoch:1824, iter:  21,900, lr:(5.000e-05,)] [eta: 3:48:34, time (data): 1.357 (1.323)] l_pix: 4.1705e-02 
+2025-03-27 17:36:39,319 INFO: [finet..][epoch:1833, iter:  22,000, lr:(5.000e-05,)] [eta: 3:46:23, time (data): 1.434 (1.398)] l_pix: 2.9213e-02 
+2025-03-27 17:38:49,896 INFO: [finet..][epoch:1841, iter:  22,100, lr:(5.000e-05,)] [eta: 3:44:05, time (data): 1.367 (1.332)] l_pix: 4.1920e-02 
+2025-03-27 17:41:00,371 INFO: [finet..][epoch:1849, iter:  22,200, lr:(5.000e-05,)] [eta: 3:41:47, time (data): 1.268 (1.234)] l_pix: 3.8398e-02 
+2025-03-27 17:43:26,793 INFO: [finet..][epoch:1858, iter:  22,300, lr:(5.000e-05,)] [eta: 3:39:36, time (data): 1.371 (1.336)] l_pix: 4.2828e-02 
+2025-03-27 17:45:36,966 INFO: [finet..][epoch:1866, iter:  22,400, lr:(5.000e-05,)] [eta: 3:37:17, time (data): 1.281 (1.248)] l_pix: 3.4373e-02 
+2025-03-27 17:47:46,778 INFO: [finet..][epoch:1874, iter:  22,500, lr:(5.000e-05,)] [eta: 3:34:59, time (data): 1.290 (1.258)] l_pix: 4.3299e-02 
+2025-03-27 17:50:13,646 INFO: [finet..][epoch:1883, iter:  22,600, lr:(5.000e-05,)] [eta: 3:32:48, time (data): 1.484 (1.446)] l_pix: 5.2648e-02 
+2025-03-27 17:52:24,302 INFO: [finet..][epoch:1891, iter:  22,700, lr:(5.000e-05,)] [eta: 3:30:30, time (data): 1.390 (1.354)] l_pix: 4.3899e-02 
+2025-03-27 17:54:34,719 INFO: [finet..][epoch:1899, iter:  22,800, lr:(5.000e-05,)] [eta: 3:28:12, time (data): 1.311 (1.276)] l_pix: 3.5780e-02 
+2025-03-27 17:57:01,145 INFO: [finet..][epoch:1908, iter:  22,900, lr:(5.000e-05,)] [eta: 3:26:00, time (data): 1.393 (1.356)] l_pix: 3.3082e-02 
+2025-03-27 17:59:11,953 INFO: [finet..][epoch:1916, iter:  23,000, lr:(5.000e-05,)] [eta: 3:23:42, time (data): 1.330 (1.294)] l_pix: 3.9954e-02 
+2025-03-27 18:01:22,181 INFO: [finet..][epoch:1924, iter:  23,100, lr:(5.000e-05,)] [eta: 3:21:24, time (data): 1.315 (1.281)] l_pix: 4.0847e-02 
+2025-03-27 18:03:49,008 INFO: [finet..][epoch:1933, iter:  23,200, lr:(5.000e-05,)] [eta: 3:19:13, time (data): 1.346 (1.310)] l_pix: 4.0065e-02 
+2025-03-27 18:05:59,412 INFO: [finet..][epoch:1941, iter:  23,300, lr:(5.000e-05,)] [eta: 3:16:55, time (data): 1.323 (1.288)] l_pix: 3.3476e-02 
+2025-03-27 18:08:09,800 INFO: [finet..][epoch:1949, iter:  23,400, lr:(5.000e-05,)] [eta: 3:14:37, time (data): 1.358 (1.324)] l_pix: 3.7625e-02 
+2025-03-27 18:10:36,063 INFO: [finet..][epoch:1958, iter:  23,500, lr:(5.000e-05,)] [eta: 3:12:25, time (data): 1.415 (1.380)] l_pix: 3.5889e-02 
+2025-03-27 18:12:46,687 INFO: [finet..][epoch:1966, iter:  23,600, lr:(5.000e-05,)] [eta: 3:10:07, time (data): 1.375 (1.339)] l_pix: 3.4710e-02 
+2025-03-27 18:14:57,467 INFO: [finet..][epoch:1974, iter:  23,700, lr:(5.000e-05,)] [eta: 3:07:50, time (data): 1.338 (1.303)] l_pix: 4.7156e-02 
+2025-03-27 18:17:23,964 INFO: [finet..][epoch:1983, iter:  23,800, lr:(5.000e-05,)] [eta: 3:05:38, time (data): 1.392 (1.355)] l_pix: 4.4421e-02 
+2025-03-27 18:19:34,368 INFO: [finet..][epoch:1991, iter:  23,900, lr:(5.000e-05,)] [eta: 3:03:20, time (data): 1.344 (1.308)] l_pix: 4.8283e-02 
+2025-03-27 18:21:44,801 INFO: [finet..][epoch:1999, iter:  24,000, lr:(5.000e-05,)] [eta: 3:01:02, time (data): 1.206 (1.175)] l_pix: 3.2402e-02 
+2025-03-27 18:24:11,427 INFO: [finet..][epoch:2008, iter:  24,100, lr:(5.000e-05,)] [eta: 2:58:50, time (data): 1.350 (1.317)] l_pix: 4.2073e-02 
+2025-03-27 18:26:21,659 INFO: [finet..][epoch:2016, iter:  24,200, lr:(5.000e-05,)] [eta: 2:56:32, time (data): 1.424 (1.389)] l_pix: 5.2063e-02 
+2025-03-27 18:28:32,283 INFO: [finet..][epoch:2024, iter:  24,300, lr:(5.000e-05,)] [eta: 2:54:15, time (data): 1.358 (1.324)] l_pix: 5.9257e-02 
+2025-03-27 18:30:58,502 INFO: [finet..][epoch:2033, iter:  24,400, lr:(5.000e-05,)] [eta: 2:52:02, time (data): 1.439 (1.405)] l_pix: 4.7535e-02 
+2025-03-27 18:33:08,936 INFO: [finet..][epoch:2041, iter:  24,500, lr:(5.000e-05,)] [eta: 2:49:45, time (data): 1.364 (1.330)] l_pix: 3.8607e-02 
+2025-03-27 18:35:19,196 INFO: [finet..][epoch:2049, iter:  24,600, lr:(5.000e-05,)] [eta: 2:47:27, time (data): 1.253 (1.219)] l_pix: 4.0143e-02 
+2025-03-27 18:37:45,766 INFO: [finet..][epoch:2058, iter:  24,700, lr:(5.000e-05,)] [eta: 2:45:15, time (data): 1.372 (1.337)] l_pix: 3.6677e-02 
+2025-03-27 18:39:56,208 INFO: [finet..][epoch:2066, iter:  24,800, lr:(5.000e-05,)] [eta: 2:42:57, time (data): 1.270 (1.238)] l_pix: 4.5256e-02 
+2025-03-27 18:42:06,598 INFO: [finet..][epoch:2074, iter:  24,900, lr:(5.000e-05,)] [eta: 2:40:40, time (data): 1.289 (1.257)] l_pix: 4.1997e-02 
+2025-03-27 18:44:33,454 INFO: [finet..][epoch:2083, iter:  25,000, lr:(5.000e-05,)] [eta: 2:38:27, time (data): 1.503 (1.467)] l_pix: 5.0327e-02 
+2025-03-27 18:44:33,454 INFO: Saving models and training states.
+2025-03-27 18:44:35,632 INFO: Validation caratulas_val
+	 # psnr: 21.6018	Best: 21.7947 @ 5000 iter
+
+2025-03-27 18:46:46,421 INFO: [finet..][epoch:2091, iter:  25,100, lr:(5.000e-05,)] [eta: 2:36:11, time (data): 1.392 (1.357)] l_pix: 3.8077e-02 
+2025-03-27 18:48:56,902 INFO: [finet..][epoch:2099, iter:  25,200, lr:(5.000e-05,)] [eta: 2:33:53, time (data): 1.302 (1.270)] l_pix: 4.0004e-02 
+2025-03-27 18:51:23,334 INFO: [finet..][epoch:2108, iter:  25,300, lr:(5.000e-05,)] [eta: 2:31:40, time (data): 1.395 (1.361)] l_pix: 4.3843e-02 
+2025-03-27 18:53:33,694 INFO: [finet..][epoch:2116, iter:  25,400, lr:(5.000e-05,)] [eta: 2:29:23, time (data): 1.324 (1.287)] l_pix: 5.3018e-02 
+2025-03-27 18:55:44,129 INFO: [finet..][epoch:2124, iter:  25,500, lr:(5.000e-05,)] [eta: 2:27:06, time (data): 1.313 (1.277)] l_pix: 5.5620e-02 
+2025-03-27 18:58:10,738 INFO: [finet..][epoch:2133, iter:  25,600, lr:(5.000e-05,)] [eta: 2:24:53, time (data): 1.341 (1.305)] l_pix: 3.5248e-02 
+2025-03-27 19:00:21,203 INFO: [finet..][epoch:2141, iter:  25,700, lr:(5.000e-05,)] [eta: 2:22:36, time (data): 1.320 (1.286)] l_pix: 3.6347e-02 
+2025-03-27 19:02:31,623 INFO: [finet..][epoch:2149, iter:  25,800, lr:(5.000e-05,)] [eta: 2:20:19, time (data): 1.358 (1.321)] l_pix: 3.4931e-02 
+2025-03-27 19:04:58,264 INFO: [finet..][epoch:2158, iter:  25,900, lr:(5.000e-05,)] [eta: 2:18:05, time (data): 1.421 (1.384)] l_pix: 3.8835e-02 
+2025-03-27 19:07:08,494 INFO: [finet..][epoch:2166, iter:  26,000, lr:(5.000e-05,)] [eta: 2:15:48, time (data): 1.374 (1.340)] l_pix: 5.0749e-02 
+2025-03-27 19:09:19,115 INFO: [finet..][epoch:2174, iter:  26,100, lr:(5.000e-05,)] [eta: 2:13:31, time (data): 1.334 (1.299)] l_pix: 3.0918e-02 
+2025-03-27 19:11:45,669 INFO: [finet..][epoch:2183, iter:  26,200, lr:(5.000e-05,)] [eta: 2:11:18, time (data): 1.393 (1.359)] l_pix: 3.9515e-02 
+2025-03-27 19:13:55,774 INFO: [finet..][epoch:2191, iter:  26,300, lr:(5.000e-05,)] [eta: 2:09:01, time (data): 1.339 (1.306)] l_pix: 3.6283e-02 
+2025-03-27 19:16:06,194 INFO: [finet..][epoch:2199, iter:  26,400, lr:(5.000e-05,)] [eta: 2:06:44, time (data): 1.182 (1.151)] l_pix: 4.8105e-02 
+2025-03-27 19:18:33,029 INFO: [finet..][epoch:2208, iter:  26,500, lr:(5.000e-05,)] [eta: 2:04:30, time (data): 1.351 (1.316)] l_pix: 2.9260e-02 
+2025-03-27 19:20:43,631 INFO: [finet..][epoch:2216, iter:  26,600, lr:(5.000e-05,)] [eta: 2:02:13, time (data): 1.440 (1.401)] l_pix: 3.7057e-02 
+2025-03-27 19:22:53,681 INFO: [finet..][epoch:2224, iter:  26,700, lr:(5.000e-05,)] [eta: 1:59:56, time (data): 1.357 (1.322)] l_pix: 3.9608e-02 
+2025-03-27 19:25:19,868 INFO: [finet..][epoch:2233, iter:  26,800, lr:(5.000e-05,)] [eta: 1:57:42, time (data): 1.455 (1.419)] l_pix: 2.9003e-02 
+2025-03-27 19:27:30,317 INFO: [finet..][epoch:2241, iter:  26,900, lr:(5.000e-05,)] [eta: 1:55:25, time (data): 1.365 (1.330)] l_pix: 3.9254e-02 
+2025-03-27 19:29:40,693 INFO: [finet..][epoch:2249, iter:  27,000, lr:(5.000e-05,)] [eta: 1:53:09, time (data): 1.237 (1.204)] l_pix: 3.7580e-02 
+2025-03-27 19:32:07,149 INFO: [finet..][epoch:2258, iter:  27,100, lr:(5.000e-05,)] [eta: 1:50:55, time (data): 1.374 (1.338)] l_pix: 4.0052e-02 
+2025-03-27 19:34:17,188 INFO: [finet..][epoch:2266, iter:  27,200, lr:(5.000e-05,)] [eta: 1:48:38, time (data): 1.250 (1.219)] l_pix: 3.3331e-02 
+2025-03-27 19:36:27,187 INFO: [finet..][epoch:2274, iter:  27,300, lr:(5.000e-05,)] [eta: 1:46:21, time (data): 1.280 (1.248)] l_pix: 3.7212e-02 
+2025-03-27 19:38:53,420 INFO: [finet..][epoch:2283, iter:  27,400, lr:(5.000e-05,)] [eta: 1:44:07, time (data): 1.522 (1.486)] l_pix: 3.6490e-02 
+2025-03-27 19:41:03,665 INFO: [finet..][epoch:2291, iter:  27,500, lr:(5.000e-05,)] [eta: 1:41:50, time (data): 1.388 (1.353)] l_pix: 3.9235e-02 
+2025-03-27 19:43:13,491 INFO: [finet..][epoch:2299, iter:  27,600, lr:(5.000e-05,)] [eta: 1:39:33, time (data): 1.289 (1.258)] l_pix: 4.1741e-02 
+2025-03-27 19:45:39,628 INFO: [finet..][epoch:2308, iter:  27,700, lr:(5.000e-05,)] [eta: 1:37:19, time (data): 1.395 (1.360)] l_pix: 3.2527e-02 
+2025-03-27 19:47:50,127 INFO: [finet..][epoch:2316, iter:  27,800, lr:(5.000e-05,)] [eta: 1:35:03, time (data): 1.316 (1.281)] l_pix: 5.0961e-02 
+2025-03-27 19:50:00,158 INFO: [finet..][epoch:2324, iter:  27,900, lr:(5.000e-05,)] [eta: 1:32:46, time (data): 1.307 (1.272)] l_pix: 4.2703e-02 
+2025-03-27 19:52:26,184 INFO: [finet..][epoch:2333, iter:  28,000, lr:(5.000e-05,)] [eta: 1:30:32, time (data): 1.328 (1.294)] l_pix: 4.5184e-02 
+2025-03-27 19:54:37,178 INFO: [finet..][epoch:2341, iter:  28,100, lr:(5.000e-05,)] [eta: 1:28:15, time (data): 1.317 (1.283)] l_pix: 4.1183e-02 
+2025-03-27 19:56:47,211 INFO: [finet..][epoch:2349, iter:  28,200, lr:(5.000e-05,)] [eta: 1:25:58, time (data): 1.353 (1.319)] l_pix: 3.0130e-02 
+2025-03-27 19:59:13,068 INFO: [finet..][epoch:2358, iter:  28,300, lr:(5.000e-05,)] [eta: 1:23:44, time (data): 1.419 (1.386)] l_pix: 3.5126e-02 
+2025-03-27 20:01:23,082 INFO: [finet..][epoch:2366, iter:  28,400, lr:(5.000e-05,)] [eta: 1:21:27, time (data): 1.376 (1.344)] l_pix: 4.7983e-02 
+2025-03-27 20:03:33,283 INFO: [finet..][epoch:2374, iter:  28,500, lr:(5.000e-05,)] [eta: 1:19:11, time (data): 1.329 (1.297)] l_pix: 4.2780e-02 
+2025-03-27 20:05:59,640 INFO: [finet..][epoch:2383, iter:  28,600, lr:(5.000e-05,)] [eta: 1:16:56, time (data): 1.401 (1.367)] l_pix: 3.7206e-02 
+2025-03-27 20:08:09,959 INFO: [finet..][epoch:2391, iter:  28,700, lr:(5.000e-05,)] [eta: 1:14:40, time (data): 1.339 (1.305)] l_pix: 3.1993e-02 
+2025-03-27 20:10:19,996 INFO: [finet..][epoch:2399, iter:  28,800, lr:(5.000e-05,)] [eta: 1:12:23, time (data): 1.143 (1.112)] l_pix: 5.0480e-02 
+2025-03-27 20:12:46,415 INFO: [finet..][epoch:2408, iter:  28,900, lr:(5.000e-05,)] [eta: 1:10:09, time (data): 1.348 (1.313)] l_pix: 3.8828e-02 
+2025-03-27 20:14:56,600 INFO: [finet..][epoch:2416, iter:  29,000, lr:(5.000e-05,)] [eta: 1:07:52, time (data): 1.451 (1.415)] l_pix: 4.3787e-02 
+2025-03-27 20:17:07,052 INFO: [finet..][epoch:2424, iter:  29,100, lr:(5.000e-05,)] [eta: 1:05:36, time (data): 1.357 (1.321)] l_pix: 4.3530e-02 
+2025-03-27 20:19:33,690 INFO: [finet..][epoch:2433, iter:  29,200, lr:(5.000e-05,)] [eta: 1:03:21, time (data): 1.479 (1.443)] l_pix: 3.8863e-02 
+2025-03-27 20:21:43,688 INFO: [finet..][epoch:2441, iter:  29,300, lr:(5.000e-05,)] [eta: 1:01:05, time (data): 1.364 (1.329)] l_pix: 3.3979e-02 
+2025-03-27 20:23:54,108 INFO: [finet..][epoch:2449, iter:  29,400, lr:(5.000e-05,)] [eta: 0:58:49, time (data): 1.208 (1.177)] l_pix: 3.0632e-02 
+2025-03-27 20:26:20,355 INFO: [finet..][epoch:2458, iter:  29,500, lr:(5.000e-05,)] [eta: 0:56:34, time (data): 1.373 (1.340)] l_pix: 3.9370e-02 
+2025-03-27 20:27:26,042 INFO: End of training. Time consumed: 11:09:17
+2025-03-27 20:27:26,042 INFO: Save the latest model.
+2025-03-27 20:27:27,729 INFO: Validation caratulas_val
+	 # psnr: 21.5796	Best: 21.7947 @ 5000 iter
+

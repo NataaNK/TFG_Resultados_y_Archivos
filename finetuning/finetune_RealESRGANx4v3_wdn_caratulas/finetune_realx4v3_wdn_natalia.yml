@@ -1,0 +1,111 @@
+# GENERATE TIME: Thu Mar 27 09:17:51 2025
+# CMD:
+# realesrgan/train.py -opt options/finetune_realx4v3_wdn_natalia.yml --auto_resume
+
+# Configuraciones generales
+name: finetune_RealESRGANx4v3_wdn_caratulas
+model_type: RealESRNetModel
+scale: 4
+num_gpu: auto
+manual_seed: 0
+
+# Ajustes para evitar degradaciones sintéticas adicionales
+l1_gt_usm: True
+percep_gt_usm: True
+gan_gt_usm: False
+high_order_degradation: False  # no usar proceso de degradación de alto orden (ya tenemos LQ pareadas)
+
+# Configuración de dataset y dataloader
+datasets:
+  train:
+    name: CaratulasDataset
+    type: RealESRGANPairedDataset
+    dataroot_gt: "H:\\MasOrange\\IMAGENES\\AAOptimizacion\\FinetuningDataset\\HR"
+    dataroot_lq: "H:\\MasOrange\\IMAGENES\\AAOptimizacion\\FinetuningDataset\\LR"
+    meta_info: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\meta_info_train.txt
+    io_backend:
+      type: disk
+    gt_size: 256                # tamaño de recorte de patches de entrenamiento (px)
+    use_hflip: True             # habilitar flip horizontal aleatorio
+    use_rot: False              # sin rotaciones aleatorias
+    # Configuración del cargador de datos
+    use_shuffle: true
+    num_worker_per_gpu: 6       # hilos de carga por GPU (ajustar según recursos)
+    batch_size_per_gpu: 8       # tamaño de lote por GPU (ajustar según VRAM)
+    dataset_enlarge_ratio: 1
+    prefetch_mode: ~
+
+  val:
+    name: caratulas_val
+    type: PairedImageDataset
+    dataroot_gt: "H:\\MasOrange\\IMAGENES\\AAOptimizacion\\FinetuningDataset\\HR_val"
+    dataroot_lq: "H:\\MasOrange\\IMAGENES\\AAOptimizacion\\FinetuningDataset\\LR_val"
+    meta_info: H:\MasOrange\IMAGENES\AAOptimizacion\FinetuningDataset\meta_info_val.txt
+    io_backend:
+      type: disk
+
+# Estructura de la red neuronal generadora
+network_g:
+  type: SRVGGNetCompact
+  num_in_ch: 3
+  num_out_ch: 3
+  num_feat: 64
+  num_conv: 32
+  upscale: 4
+  act_type: prelu
+# No se define una red discriminadora para este fine-tuning enfocado en PSNR
+
+# Rutas de modelos pre-entrenados
+path:
+  pretrain_network_g: experiments/pretrained_models/realesr-general-wdn-x4v3.pth
+  param_key_g: params_ema    # usar parámetros EMA del modelo pre-entrenado
+  strict_load_g: true
+  # pretrain_network_d: ~    # (no se utiliza discriminador pre-entrenado)
+  resume_state: ~            # comenzar entrenamiento desde cero (no reanudar)
+
+# Ajustes de entrenamiento
+train:
+  ema_decay: 0.999
+  optim_g:
+    type: Adam
+    lr: !!float 5e-5
+    weight_decay: 0
+    betas: [0.9, 0.99]
+  # optim_d:                  # no se define optimizador para discriminador (no usado)
+  scheduler:
+    type: MultiStepLR
+    milestones: [400000]
+    gamma: 0.5
+  total_iter: 32000        # iteraciones totales de entrenamiento (11h)
+  warmup_iter: -1           # sin periodo de calentamiento
+
+  # Pérdidas
+  pixel_opt:
+    type: L1Loss
+    loss_weight: 1.0
+    reduction: mean
+  # No se usan pérdidas perceptuales ni adversariales para optimizar PSNR (pérdidas de estilo desactivadas)
+
+# Configuración de validación
+val:
+  val_freq: !!float 5e3      # frecuencia de validación (cada 5000 iteraciones)
+  save_img: True            # guardar imágenes de resultado durante la validación
+  metrics:
+    psnr:
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: false
+
+# Configuración de registro (logging)
+logger:
+  print_freq: 100
+  save_checkpoint_freq: !!float 5e3
+  use_tb_logger: true       # usar TensorBoard para registro
+  wandb:
+    project: ~
+    resume_id: ~
+
+# Configuraciones para entrenamiento distribuido
+dist_params:
+  backend: nccl
+  port: 29500
